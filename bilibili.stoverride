@@ -1,5 +1,5 @@
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/biliad.png
-name: Bilibili
+name: bilibili
 desc: 哔哩哔哩去广告
 http:
   mitm:
@@ -29,7 +29,7 @@ http:
       type: response
       require-body: true
       timeout: 10
-    - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity
       name: bilibiliquguanggao4
       type: response
       require-body: true
