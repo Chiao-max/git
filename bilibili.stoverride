@@ -89,6 +89,11 @@ http:
       type: response
       require-body: true
       timeout: 10
+    - match: ^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$
+      name: bilibiliquguanggao16
+      type: response
+      require-body: true
+      timeout: 10
   rewrite:
     - ^https?:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
     - ^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default - reject
@@ -146,4 +151,7 @@ script-providers:
     interval: 86400
   bilibiliquguanggao15:
     url: https://github.com/deezertidal/private/raw/master/js-backup/Rewrite/Function/Bilibili_CC.conf
+    interval: 86400
+  bilibiliquguanggao16:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
     interval: 86400
