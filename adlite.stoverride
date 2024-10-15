@@ -5467,16 +5467,16 @@ script-providers:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
   APPqidongyequguanggaoultra+314:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
     interval: 86400
   APPqidongyequguanggaoultra+315:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
     interval: 86400
   APPqidongyequguanggaoultra+316:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
     interval: 86400
   APPqidongyequguanggaoultra+317:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
     interval: 86400
   APPqidongyequguanggaoultra+318:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
@@ -5614,7 +5614,7 @@ script-providers:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js
     interval: 86400
   APPqidongyequguanggaoultra+363:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto_beta.js
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
     interval: 86400
   APPqidongyequguanggaoultra+364:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
