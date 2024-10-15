@@ -1,6 +1,10 @@
+#!name=APP启动页去广告ultra+
+#!desc=APP启动页去广告融合ultra+
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
-name: AdBlocker
-desc: APP去广告
+#!homepage=https://whatshub.top
+#!author=Mixed
+name: APPqidongyequguanggaoultra+
+desc: APP启动页去广告融合ultra+
 http:
   mitm:
     - "*-release.wuta-cam.com"
@@ -2137,26 +2141,6 @@ http:
       type: response
       require-body: true
       timeout: 10
-    - match: ^https?:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$
-      name: APPqidongyequguanggaoultra+314
-      type: response
-      require-body: true
-      timeout: 10
-    - match: ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/(DmView|DmSegMobile)
-      name: APPqidongyequguanggaoultra+315
-      type: response
-      require-body: true
-      timeout: 10
-    - match: ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/Dyn(All|Video)$
-      name: APPqidongyequguanggaoultra+316
-      type: response
-      require-body: true
-      timeout: 10
-    - match: ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|TFInfo)$
-      name: APPqidongyequguanggaoultra+317
-      type: response
-      require-body: true
-      timeout: 10
     - match: ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
       name: APPqidongyequguanggaoultra+318
       type: response
@@ -2379,11 +2363,6 @@ http:
       timeout: 10
     - match: ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\?
       name: APPqidongyequguanggaoultra+362
-      type: response
-      require-body: true
-      timeout: 10
-    - match: ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus
-      name: APPqidongyequguanggaoultra+363
       type: response
       require-body: true
       timeout: 10
@@ -5466,18 +5445,6 @@ script-providers:
   APPqidongyequguanggaoultra+313:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+314:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
-    interval: 86400
-  APPqidongyequguanggaoultra+315:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
-    interval: 86400
-  APPqidongyequguanggaoultra+316:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
-    interval: 86400
-  APPqidongyequguanggaoultra+317:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
-    interval: 86400
   APPqidongyequguanggaoultra+318:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
@@ -5612,9 +5579,6 @@ script-providers:
     interval: 86400
   APPqidongyequguanggaoultra+362:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js
-    interval: 86400
-  APPqidongyequguanggaoultra+363:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
     interval: 86400
   APPqidongyequguanggaoultra+364:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
