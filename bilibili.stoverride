@@ -1,5 +1,5 @@
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/biliad.png
-name: bilibili
+name: Bilibili
 desc: 哔哩哔哩去广告
 http:
   mitm:
