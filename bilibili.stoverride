@@ -124,24 +124,8 @@ http:
       max-size: -1
       timeout: 60
 
-# ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
-    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine
-      name: "bilibili_json_99"
-      type: response
-      require-body: true
-      max-size: -1
-      timeout: 60
-
 # ～ BiliBili_哔哩哔哩_屏蔽首页右上活动@ddgksf2013
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity
-      name: "bilibili_json_99"
-      type: response
-      require-body: true
-      max-size: -1
-      timeout: 60
-
-# ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
-    - match: ^https://app.bilibili.com/x/v2/search/square
       name: "bilibili_json_99"
       type: response
       require-body: true
