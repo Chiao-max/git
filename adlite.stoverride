@@ -1,8 +1,4 @@
-#!name=APP启动页去广告lite
-#!desc=APP启动页去广告轻量版
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
-#!homepage=https://whatshub.top
-#!author=ddgksf2013
 name: AdBlocker
 desc: APP启动页去广告轻量版
 http:
@@ -383,7 +379,7 @@ http:
     - "*.hoopchina.com"
     - "goblin.hupu.com"
     - "spclient.wg.spotify.com"
-	- "m.ctrip.com"
+    - "m.ctrip.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: APPqidongyequguanggaolite1
@@ -892,12 +888,12 @@ http:
     - ^https?:\/\/newapp2\.szsmk\.com\/app\/config\/queryMainAd - reject-200
     - ^https?:\/\/app\.ibuscloud\.com\/v\d\/(app\/getSkipAdvert|notice\/getNoticeWithAdvByCity) - reject-200
     - ^https?:\/\/api\.ireader\.mobi\/activity\/ad\/openScreen - reject-200
-	- ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/scjson\/tripAds - reject-200
+    - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/scjson\/tripAds - reject-200
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/[0-9]{5}\/json\/getTimeZoneServerIpList\?__gw_os=IOS - reject-200
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds - reject-dict
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/json\/tripAds - reject-200
-	- ^https?://m\.ctrip\.com/restapi/[\w/]+tripAds - reject
-	- ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject-200
+    - ^https?://m\.ctrip\.com/restapi/[\w/]+tripAds - reject
+    - ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject-200
 script-providers:
   APPqidongyequguanggaolite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
