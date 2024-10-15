@@ -501,6 +501,16 @@ http:
       type: response
       require-body: true
       timeout: 10
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity
+      name: APPqidongyequguanggaolite25
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab
+      name: APPqidongyequguanggaolite26
+      type: response
+      require-body: true
+      timeout: 10
   rewrite:
     - ^https?:\/\/2024.10.12/c347/v2.0.534 - reject-200
     - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject-200
@@ -966,4 +976,10 @@ script-providers:
     interval: 86400
   APPqidongyequguanggaolite24:
     url: https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js
+    interval: 86400
+  APPqidongyequguanggaolite25:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
+    interval: 86400
+  APPqidongyequguanggaolite26:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
