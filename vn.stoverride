@@ -1,9 +1,4 @@
-#!name=VN视频剪辑
-#!desc=VN视频剪辑解锁会员
-#!homepage=https://whatshub.top
-#!author=yqc007
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/vn.png
-name: VNshipinjianji
+name: VlogNow
 desc: VN视频剪辑解锁会员
 http:
   mitm:
