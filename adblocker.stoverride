@@ -581,28 +581,13 @@ http:
       type: response
       require-body: true
       timeout: 10
-    - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource
-      name: APPqidongyequguanggaoultra+3
-      type: response
-      require-body: true
-      timeout: 10
     - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show
       name: APPqidongyequguanggaoultra+4
       type: response
       require-body: true
       timeout: 10
-    - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab
-      name: APPqidongyequguanggaoultra+5
-      type: response
-      require-body: true
-      timeout: 10
     - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh))
       name: APPqidongyequguanggaoultra+6
-      type: response
-      require-body: true
-      timeout: 10
-    - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get)
-      name: APPqidongyequguanggaoultra+7
       type: response
       require-body: true
       timeout: 10
@@ -4507,19 +4492,10 @@ script-providers:
   APPqidongyequguanggaoultra+2:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
     interval: 86400
-  APPqidongyequguanggaoultra+3:
-    url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
-    interval: 86400
   APPqidongyequguanggaoultra+4:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
     interval: 86400
-  APPqidongyequguanggaoultra+5:
-    url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
-    interval: 86400
   APPqidongyequguanggaoultra+6:
-    url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
-    interval: 86400
-  APPqidongyequguanggaoultra+7:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
     interval: 86400
   APPqidongyequguanggaoultra+8:
