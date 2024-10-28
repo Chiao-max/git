@@ -572,1872 +572,1872 @@ http:
     - "ztoread.ziroom.com"
   script:
     - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get
-      name: APPqidongyequguanggaoultra+1
+      name: AdBlocker_1
       type: response
       require-body: true
       timeout: 10
     - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/song\/play\/more\/list\/v\d
-      name: APPqidongyequguanggaoultra+2
+      name: AdBlocker_2
       type: response
       require-body: true
       timeout: 10
     - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show
-      name: APPqidongyequguanggaoultra+4
+      name: AdBlocker_4
       type: response
       require-body: true
       timeout: 10
     - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh))
-      name: APPqidongyequguanggaoultra+6
+      name: AdBlocker_6
       type: response
       require-body: true
       timeout: 10
     - match: https://yun.feidee.net/cab-vip-ws/terminal/v1/vip-users/show-info
-      name: APPqidongyequguanggaoultra+8
+      name: AdBlocker_8
       type: response
       require-body: true
       timeout: 10
     - match: https://userapi.feidee.net/v1/profile/basic_info
-      name: APPqidongyequguanggaoultra+9
+      name: AdBlocker_9
       type: response
       require-body: true
       timeout: 10
     - match: https://mgesq.api.mgtv.com/dsl/index.+
-      name: APPqidongyequguanggaoultra+10
+      name: AdBlocker_10
       type: response
       require-body: true
       timeout: 10
     - match: https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow
-      name: APPqidongyequguanggaoultra+11
+      name: AdBlocker_11
       type: response
       require-body: true
       timeout: 10
     - match: https://api.rr.tv/watch/v4
-      name: APPqidongyequguanggaoultra+12
+      name: AdBlocker_12
       type: response
       require-body: true
       timeout: 10
     - match: https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX
-      name: APPqidongyequguanggaoultra+13
+      name: AdBlocker_13
       type: response
       require-body: true
       timeout: 10
     - match: https://api.rr.tv/user/profile
-      name: APPqidongyequguanggaoultra+14
+      name: AdBlocker_14
       type: response
       require-body: true
       timeout: 10
     - match: https://api.juxingclub.com/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX
-      name: APPqidongyequguanggaoultra+15
+      name: AdBlocker_15
       type: response
       require-body: true
       timeout: 10
     - match: ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
-      name: APPqidongyequguanggaoultra+16
+      name: AdBlocker_16
       type: response
       require-body: true
       timeout: 10
     - match: ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
-      name: APPqidongyequguanggaoultra+17
+      name: AdBlocker_17
       type: response
       require-body: true
       timeout: 10
     - match: ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
-      name: APPqidongyequguanggaoultra+18
+      name: AdBlocker_18
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner
-      name: APPqidongyequguanggaoultra+19
+      name: AdBlocker_19
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v
-      name: APPqidongyequguanggaoultra+20
+      name: AdBlocker_20
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v
-      name: APPqidongyequguanggaoultra+21
+      name: AdBlocker_21
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB04
-      name: APPqidongyequguanggaoultra+22
+      name: AdBlocker_22
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do
-      name: APPqidongyequguanggaoultra+23
+      name: AdBlocker_23
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do
-      name: APPqidongyequguanggaoultra+24
+      name: AdBlocker_24
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))?
-      name: APPqidongyequguanggaoultra+25
+      name: AdBlocker_25
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation\?
-      name: APPqidongyequguanggaoultra+26
+      name: AdBlocker_26
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/www\.zhihu\.com\/api\/v4\/comment_v5\/answers\/\d+\/abstract_comment\?
-      name: APPqidongyequguanggaoultra+27
+      name: AdBlocker_27
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1
-      name: APPqidongyequguanggaoultra+28
+      name: AdBlocker_28
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/www\.flyert\.com(\.cn)?\/.*plugin
-      name: APPqidongyequguanggaoultra+29
+      name: AdBlocker_29
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(common\/getJGQIconNew|city\/getAllBannelByCity)
-      name: APPqidongyequguanggaoultra+30
+      name: AdBlocker_30
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity
-      name: APPqidongyequguanggaoultra+31
+      name: AdBlocker_31
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center
-      name: APPqidongyequguanggaoultra+32
+      name: AdBlocker_32
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic
-      name: APPqidongyequguanggaoultra+33
+      name: AdBlocker_33
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app
-      name: APPqidongyequguanggaoultra+34
+      name: AdBlocker_34
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*get_coopen_ads
-      name: APPqidongyequguanggaoultra+35
+      name: AdBlocker_35
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*feed&a=search_topic
-      name: APPqidongyequguanggaoultra+36
+      name: AdBlocker_36
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*a=trends
-      name: APPqidongyequguanggaoultra+37
+      name: AdBlocker_37
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php.*a=get_searching_info
-      name: APPqidongyequguanggaoultra+38
+      name: AdBlocker_38
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/v\d\/user\/vip\?op=ui
-      name: APPqidongyequguanggaoultra+39
+      name: AdBlocker_39
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/(enc\/user\/vip\?op=ui|v\d\/theme\?op=gd)
-      name: APPqidongyequguanggaoultra+40
+      name: AdBlocker_40
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/user-api\.smzdm\.com\/vip\/creator_user_center
-      name: APPqidongyequguanggaoultra+41
+      name: AdBlocker_41
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list
-      name: APPqidongyequguanggaoultra+42
+      name: AdBlocker_42
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/user-api\.smzdm\.com\/vip
-      name: APPqidongyequguanggaoultra+43
+      name: AdBlocker_43
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get
-      name: APPqidongyequguanggaoultra+44
+      name: AdBlocker_44
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/tiku\.fenbi\.com\/activity\/app\/launcher\?
-      name: APPqidongyequguanggaoultra+45
+      name: AdBlocker_45
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/homefeatures
-      name: APPqidongyequguanggaoultra+46
+      name: AdBlocker_46
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/feeds
-      name: APPqidongyequguanggaoultra+47
+      name: AdBlocker_47
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/features
-      name: APPqidongyequguanggaoultra+48
+      name: AdBlocker_48
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/banners
-      name: APPqidongyequguanggaoultra+49
+      name: AdBlocker_49
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/starplucker\.cyapi\.cn\/v\d/notification/message_center
-      name: APPqidongyequguanggaoultra+50
+      name: AdBlocker_50
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/starplucker\.cyapi\.cn\/v\d/config/cypage
-      name: APPqidongyequguanggaoultra+51
+      name: AdBlocker_51
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/starplucker\.cyapi\.cn\/v\d/campaigns
-      name: APPqidongyequguanggaoultra+52
+      name: AdBlocker_52
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=2
-      name: APPqidongyequguanggaoultra+53
+      name: AdBlocker_53
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/search\.video\.iqiyi\.com\/q\?
-      name: APPqidongyequguanggaoultra+54
+      name: AdBlocker_54
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/sapphire\.api\.microsoftapp\.net\/config\/api\/v1\/get
-      name: APPqidongyequguanggaoultra+55
+      name: AdBlocker_55
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10
-      name: APPqidongyequguanggaoultra+56
+      name: AdBlocker_56
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags
-      name: APPqidongyequguanggaoultra+57
+      name: AdBlocker_57
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/s-api.smzdm\.com\/sou\/search_default_keyword
-      name: APPqidongyequguanggaoultra+58
+      name: AdBlocker_58
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/xpget
-      name: APPqidongyequguanggaoultra+59
+      name: AdBlocker_59
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget
-      name: APPqidongyequguanggaoultra+60
+      name: AdBlocker_60
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/qianbao\.smzdm\.com\/v\d\/app\/home
-      name: APPqidongyequguanggaoultra+61
+      name: AdBlocker_61
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\?
-      name: APPqidongyequguanggaoultra+62
+      name: AdBlocker_62
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/post\.soulapp\.cn\/v\d\/post\/recSquare\/subTabs
-      name: APPqidongyequguanggaoultra+63
+      name: AdBlocker_63
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card
-      name: APPqidongyequguanggaoultra+64
+      name: AdBlocker_64
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/post\.soulapp\.cn\/hot\/soul\/rank
-      name: APPqidongyequguanggaoultra+65
+      name: AdBlocker_65
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/poplayer\.template\.alibaba\.com\/\w+\.json
-      name: APPqidongyequguanggaoultra+66
+      name: AdBlocker_66
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v\d\/open\/univ$
-      name: APPqidongyequguanggaoultra+67
+      name: AdBlocker_67
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms
-      name: APPqidongyequguanggaoultra+68
+      name: AdBlocker_68
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms
-      name: APPqidongyequguanggaoultra+69
+      name: AdBlocker_69
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token)
-      name: APPqidongyequguanggaoultra+70
+      name: AdBlocker_70
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads
-      name: APPqidongyequguanggaoultra+71
+      name: AdBlocker_71
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/napi\.ithome\.com\/api\/news\/indexv\d\/iphone
-      name: APPqidongyequguanggaoultra+72
+      name: AdBlocker_72
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds)
-      name: APPqidongyequguanggaoultra+73
+      name: AdBlocker_73
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay
-      name: APPqidongyequguanggaoultra+74
+      name: AdBlocker_74
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\?
-      name: APPqidongyequguanggaoultra+75
+      name: AdBlocker_75
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|subscribe)
-      name: APPqidongyequguanggaoultra+76
+      name: AdBlocker_76
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\?
-      name: APPqidongyequguanggaoultra+77
+      name: AdBlocker_77
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?
-      name: APPqidongyequguanggaoultra+78
+      name: AdBlocker_78
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/info\?
-      name: APPqidongyequguanggaoultra+79
+      name: AdBlocker_79
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\?
-      name: APPqidongyequguanggaoultra+80
+      name: AdBlocker_80
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\?
-      name: APPqidongyequguanggaoultra+81
+      name: AdBlocker_81
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity)
-      name: APPqidongyequguanggaoultra+82
+      name: AdBlocker_82
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/mapi\.mafengwo\.cn\/user\/profile\/get_(list|profile)
-      name: APPqidongyequguanggaoultra+83
+      name: AdBlocker_83
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/deeplink\/geturl|v1\/(client\/getconf|adv\/getadvlistbatch\?positions=iOS_tab|dailyrecommend\/getdailyrecommend))
-      name: APPqidongyequguanggaoultra+84
+      name: AdBlocker_84
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/video/(community_tab|remind_info|tiny_stream_video_list)
-      name: APPqidongyequguanggaoultra+85
+      name: AdBlocker_85
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(unread_)?friends(/|_)timeline
-      name: APPqidongyequguanggaoultra+86
+      name: AdBlocker_86
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/statuses/(container_timeline|unread_hot_timeline|extend|video_mixtimeline|unread_topic_timeline)
-      name: APPqidongyequguanggaoultra+87
+      name: AdBlocker_87
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/search/(finder|container_timeline|container_discover)
-      name: APPqidongyequguanggaoultra+88
+      name: AdBlocker_88
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/profile/(me|container_timeline)
-      name: APPqidongyequguanggaoultra+89
+      name: AdBlocker_89
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/groups/timeline
-      name: APPqidongyequguanggaoultra+90
+      name: AdBlocker_90
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/cardlist
-      name: APPqidongyequguanggaoultra+91
+      name: AdBlocker_91
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist
-      name: APPqidongyequguanggaoultra+92
+      name: AdBlocker_92
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|messageflow)
-      name: APPqidongyequguanggaoultra+93
+      name: AdBlocker_93
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item)
-      name: APPqidongyequguanggaoultra+94
+      name: AdBlocker_94
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
-      name: APPqidongyequguanggaoultra+95
+      name: AdBlocker_95
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v\d\?position
-      name: APPqidongyequguanggaoultra+96
+      name: AdBlocker_96
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position_types=2(%[A-Z0-9]+)+&store_id
-      name: APPqidongyequguanggaoultra+97
+      name: AdBlocker_97
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/iqushangwang\.8quan\.com\/index\.php\/i\/index\/index
-      name: APPqidongyequguanggaoultra+98
+      name: AdBlocker_98
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/yunbei\/account\/entrance\/get
-      name: APPqidongyequguanggaoultra+99
+      name: AdBlocker_99
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vipnewcenter\/app\/resource\/newaccountpage
-      name: APPqidongyequguanggaoultra+100
+      name: AdBlocker_100
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vip\/cashier\/tspopup\/get
-      name: APPqidongyequguanggaoultra+101
+      name: AdBlocker_101
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/side-bar\/mini-program\/music-service\/account
-      name: APPqidongyequguanggaoultra+102
+      name: AdBlocker_102
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/suggest\/keyword\/get
-      name: APPqidongyequguanggaoultra+103
+      name: AdBlocker_103
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/specialkeyword\/get
-      name: APPqidongyequguanggaoultra+104
+      name: AdBlocker_104
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/rcmd\/keyword\/get
-      name: APPqidongyequguanggaoultra+105
+      name: AdBlocker_105
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/default\/keyword\/list
-      name: APPqidongyequguanggaoultra+106
+      name: AdBlocker_106
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/list
-      name: APPqidongyequguanggaoultra+107
+      name: AdBlocker_107
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/detail
-      name: APPqidongyequguanggaoultra+108
+      name: AdBlocker_108
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/scene\/show\/resource
-      name: APPqidongyequguanggaoultra+109
+      name: AdBlocker_109
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/position\/show\/resource
-      name: APPqidongyequguanggaoultra+110
+      name: AdBlocker_110
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/rcmd\/resource\/show
-      name: APPqidongyequguanggaoultra+111
+      name: AdBlocker_111
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show
-      name: APPqidongyequguanggaoultra+112
+      name: AdBlocker_112
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/home\/framework\/tab
-      name: APPqidongyequguanggaoultra+113
+      name: AdBlocker_113
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ios\/upgrade\/get
-      name: APPqidongyequguanggaoultra+114
+      name: AdBlocker_114
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/deliver
-      name: APPqidongyequguanggaoultra+115
+      name: AdBlocker_115
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/batch-deliver
-      name: APPqidongyequguanggaoultra+116
+      name: AdBlocker_116
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/creator\/musician\/reminder\/message\/get
-      name: APPqidongyequguanggaoultra+117
+      name: AdBlocker_117
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/batch
-      name: APPqidongyequguanggaoultra+118
+      name: AdBlocker_118
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/get
-      name: APPqidongyequguanggaoultra+119
+      name: AdBlocker_119
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/current
-      name: APPqidongyequguanggaoultra+120
+      name: AdBlocker_120
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/get
-      name: APPqidongyequguanggaoultra+121
+      name: AdBlocker_121
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/img\.meituan\.net\/dpmobile\/
-      name: APPqidongyequguanggaoultra+122
+      name: AdBlocker_122
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/iface2\.iqiyi\.com\/views\/3\.0\/(bottom_theme|home_top_menu)\?
-      name: APPqidongyequguanggaoultra+123
+      name: AdBlocker_123
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/common_switch\?
-      name: APPqidongyequguanggaoultra+124
+      name: AdBlocker_124
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/iface2\.iqiyi\.com\/control\/3\.0\/init_proxy\?
-      name: APPqidongyequguanggaoultra+125
+      name: AdBlocker_125
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/iface2\.iqiyi\.com\/aggregate\/3\.0\/getMyMenus\?
-      name: APPqidongyequguanggaoultra+126
+      name: AdBlocker_126
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home
-      name: APPqidongyequguanggaoultra+127
+      name: AdBlocker_127
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home
-      name: APPqidongyequguanggaoultra+128
+      name: AdBlocker_128
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul
-      name: APPqidongyequguanggaoultra+129
+      name: AdBlocker_129
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/haojia-api\.smzdm\.com\/home\/list
-      name: APPqidongyequguanggaoultra+130
+      name: AdBlocker_130
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/haojia-api\.smzdm\.com\/home\/list
-      name: APPqidongyequguanggaoultra+131
+      name: AdBlocker_131
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get)
-      name: APPqidongyequguanggaoultra+132
+      name: AdBlocker_132
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow
-      name: APPqidongyequguanggaoultra+133
+      name: AdBlocker_133
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/gql(-fed)?\.reddit\.com
-      name: APPqidongyequguanggaoultra+134
+      name: AdBlocker_134
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362
-      name: APPqidongyequguanggaoultra+135
+      name: AdBlocker_135
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362
-      name: APPqidongyequguanggaoultra+136
+      name: AdBlocker_136
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos
-      name: APPqidongyequguanggaoultra+137
+      name: AdBlocker_137
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/g\.alicdn\.com\/.*o2o-ad
-      name: APPqidongyequguanggaoultra+138
+      name: AdBlocker_138
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/freight\.xiaojukeji\.com\/gateway
-      name: APPqidongyequguanggaoultra+139
+      name: AdBlocker_139
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config$
-      name: APPqidongyequguanggaoultra+140
+      name: AdBlocker_140
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config
-      name: APPqidongyequguanggaoultra+141
+      name: AdBlocker_141
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\?
-      name: APPqidongyequguanggaoultra+142
+      name: AdBlocker_142
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\?
-      name: APPqidongyequguanggaoultra+143
+      name: AdBlocker_143
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/trending
-      name: APPqidongyequguanggaoultra+144
+      name: AdBlocker_144
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/notes\?
-      name: APPqidongyequguanggaoultra+145
+      name: AdBlocker_145
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hot_list
-      name: APPqidongyequguanggaoultra+146
+      name: AdBlocker_146
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/hint
-      name: APPqidongyequguanggaoultra+147
+      name: AdBlocker_147
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/(hint|trending)\?
-      name: APPqidongyequguanggaoultra+148
+      name: AdBlocker_148
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/(banner|hot)_list
-      name: APPqidongyequguanggaoultra+149
+      name: AdBlocker_149
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets
-      name: APPqidongyequguanggaoultra+150
+      name: AdBlocker_150
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets
-      name: APPqidongyequguanggaoultra+151
+      name: AdBlocker_151
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/videofeed\?
-      name: APPqidongyequguanggaoultra+152
+      name: AdBlocker_152
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/redtube\?
-      name: APPqidongyequguanggaoultra+153
+      name: AdBlocker_153
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/imagefeed
-      name: APPqidongyequguanggaoultra+154
+      name: AdBlocker_154
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/feed\?
-      name: APPqidongyequguanggaoultra+155
+      name: AdBlocker_155
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/(imagefeed|live_photo\/save)
-      name: APPqidongyequguanggaoultra+156
+      name: AdBlocker_156
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\?
-      name: APPqidongyequguanggaoultra+157
+      name: AdBlocker_157
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\?
-      name: APPqidongyequguanggaoultra+158
+      name: AdBlocker_158
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories
-      name: APPqidongyequguanggaoultra+159
+      name: AdBlocker_159
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/followfeed\?
-      name: APPqidongyequguanggaoultra+160
+      name: AdBlocker_160
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/notes\?
-      name: APPqidongyequguanggaoultra+161
+      name: AdBlocker_161
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v\d\/note\/feed|v3\/note\/videofeed)\?
-      name: APPqidongyequguanggaoultra+162
+      name: AdBlocker_162
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/dict\.youdao\.com\/(homepage\/promotion|course\/tab\/home|homepage\/tile)
-      name: APPqidongyequguanggaoultra+163
+      name: AdBlocker_163
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w
-      name: APPqidongyequguanggaoultra+164
+      name: AdBlocker_164
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/daijia\.kuaidadi\.com\/gateway
-      name: APPqidongyequguanggaoultra+165
+      name: AdBlocker_165
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/daijia\.kuaidadi\.com:443\/gateway
-      name: APPqidongyequguanggaoultra+166
+      name: AdBlocker_166
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/recommend\/job-tab-dynamic
-      name: APPqidongyequguanggaoultra+167
+      name: AdBlocker_167
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds
-      name: APPqidongyequguanggaoultra+168
+      name: AdBlocker_168
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/rcg\/index\.html\?callbackurl=rcg\/index\.html&orclogin=1&
-      name: APPqidongyequguanggaoultra+169
+      name: AdBlocker_169
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/fast
-      name: APPqidongyequguanggaoultra+170
+      name: AdBlocker_170
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core
-      name: APPqidongyequguanggaoultra+171
+      name: AdBlocker_171
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf
-      name: APPqidongyequguanggaoultra+172
+      name: AdBlocker_172
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me
-      name: APPqidongyequguanggaoultra+173
+      name: AdBlocker_173
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/common\.diditaxi\.com\.cn\/common\/v5
-      name: APPqidongyequguanggaoultra+174
+      name: AdBlocker_174
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/comment-card\.iqiyi\.com\/views_comment\/3\.0\/long_video_comments\?
-      name: APPqidongyequguanggaoultra+175
+      name: AdBlocker_175
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn
-      name: APPqidongyequguanggaoultra+176
+      name: AdBlocker_176
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn
-      name: APPqidongyequguanggaoultra+177
+      name: AdBlocker_177
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn
-      name: APPqidongyequguanggaoultra+178
+      name: AdBlocker_178
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn
-      name: APPqidongyequguanggaoultra+179
+      name: AdBlocker_179
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn
-      name: APPqidongyequguanggaoultra+180
+      name: AdBlocker_180
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn
-      name: APPqidongyequguanggaoultra+181
+      name: AdBlocker_181
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword
-      name: APPqidongyequguanggaoultra+182
+      name: AdBlocker_182
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList
-      name: APPqidongyequguanggaoultra+183
+      name: AdBlocker_183
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cards\.iqiyi\.com\/views_search\/3\.0\/(hot_query_)?search\?
-      name: APPqidongyequguanggaoultra+184
+      name: AdBlocker_184
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cards\.iqiyi\.com\/views_plt\/3\.0\/player_tabs_v2\?
-      name: APPqidongyequguanggaoultra+185
+      name: AdBlocker_185
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cards\.iqiyi\.com\/views_category\/3\.0\/(category_home|categorylib_content|film_hybrid)\?
-      name: APPqidongyequguanggaoultra+186
+      name: AdBlocker_186
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?
-      name: APPqidongyequguanggaoultra+187
+      name: AdBlocker_187
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/audit\/home\/getCommonMixData
-      name: APPqidongyequguanggaoultra+188
+      name: AdBlocker_188
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload
-      name: APPqidongyequguanggaoultra+189
+      name: AdBlocker_189
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/biz\.cyapi\.cn\/v\d\/user
-      name: APPqidongyequguanggaoultra+190
+      name: AdBlocker_190
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/biz\.cyapi\.cn\/api\/v\d\/user_detail
-      name: APPqidongyequguanggaoultra+191
+      name: AdBlocker_191
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list
-      name: APPqidongyequguanggaoultra+192
+      name: AdBlocker_192
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p
-      name: APPqidongyequguanggaoultra+193
+      name: AdBlocker_193
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/article-api\.smzdm\.com\/publish\/get_bubble
-      name: APPqidongyequguanggaoultra+194
+      name: AdBlocker_194
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/apps\.teamair\.cn\/app\/version
-      name: APPqidongyequguanggaoultra+195
+      name: AdBlocker_195
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/appcloud2\.zhihu\.com\/v\d+\/config
-      name: APPqidongyequguanggaoultra+196
+      name: AdBlocker_196
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/getmyprofilev3
-      name: APPqidongyequguanggaoultra+197
+      name: AdBlocker_197
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index
-      name: APPqidongyequguanggaoultra+198
+      name: AdBlocker_198
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?
-      name: APPqidongyequguanggaoultra+199
+      name: AdBlocker_199
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine
-      name: APPqidongyequguanggaoultra+200
+      name: AdBlocker_200
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity
-      name: APPqidongyequguanggaoultra+201
+      name: AdBlocker_201
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab
-      name: APPqidongyequguanggaoultra+202
+      name: AdBlocker_202
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app02\.vgtime\.com:8080\/vgtime-app\/api\/v2\/init\/ad\.json
-      name: APPqidongyequguanggaoultra+203
+      name: AdBlocker_203
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app-api\.smzdm\.com\/util\/update
-      name: APPqidongyequguanggaoultra+204
+      name: AdBlocker_204
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app-api\.smzdm\.com\/util\/loading
-      name: APPqidongyequguanggaoultra+205
+      name: AdBlocker_205
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/app-api\.smzdm\.com\/util\/loading
-      name: APPqidongyequguanggaoultra+206
+      name: AdBlocker_206
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/toufang\/marketing
-      name: APPqidongyequguanggaoultra+207
+      name: AdBlocker_207
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/user-credit\/basis
-      name: APPqidongyequguanggaoultra+208
+      name: AdBlocker_208
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists?(\?|\/)
-      name: APPqidongyequguanggaoultra+209
+      name: AdBlocker_209
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/settings\/blocked_users
-      name: APPqidongyequguanggaoultra+210
+      name: AdBlocker_210
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/search\/preset_words\?
-      name: APPqidongyequguanggaoultra+211
+      name: AdBlocker_211
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/people\/
-      name: APPqidongyequguanggaoultra+212
+      name: AdBlocker_212
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message)
-      name: APPqidongyequguanggaoultra+213
+      name: AdBlocker_213
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/next\?
-      name: APPqidongyequguanggaoultra+214
+      name: AdBlocker_214
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/next-(data|bff|render)
-      name: APPqidongyequguanggaoultra+215
+      name: AdBlocker_215
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/moments_v3\?
-      name: APPqidongyequguanggaoultra+216
+      name: AdBlocker_216
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/feed\/render\/tab\/config
-      name: APPqidongyequguanggaoultra+217
+      name: AdBlocker_217
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/feed-root\/block
-      name: APPqidongyequguanggaoultra+218
+      name: AdBlocker_218
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2
-      name: APPqidongyequguanggaoultra+219
+      name: AdBlocker_219
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+
-      name: APPqidongyequguanggaoultra+220
+      name: AdBlocker_220
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments?
-      name: APPqidongyequguanggaoultra+221
+      name: AdBlocker_221
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail
-      name: APPqidongyequguanggaoultra+222
+      name: AdBlocker_222
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.weibo\.cn\/\d\/groups\/allgroups\/v\d
-      name: APPqidongyequguanggaoultra+223
+      name: AdBlocker_223
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline)
-      name: APPqidongyequguanggaoultra+224
+      name: AdBlocker_224
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.ulife\.group\/market\/homeIconDetail\/list\/v7
-      name: APPqidongyequguanggaoultra+225
+      name: AdBlocker_225
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline
-      name: APPqidongyequguanggaoultra+226
+      name: AdBlocker_226
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.u51\.com\/generic-config-gateway\/api\/v\d\/guanjia\/me-tab2\/config
-      name: APPqidongyequguanggaoultra+227
+      name: AdBlocker_227
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AHOME%3ATOP
-      name: APPqidongyequguanggaoultra+228
+      name: AdBlocker_228
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$
-      name: APPqidongyequguanggaoultra+229
+      name: AdBlocker_229
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY
-      name: APPqidongyequguanggaoultra+230
+      name: AdBlocker_230
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.rr\.tv\/user\/privilege\/list
-      name: APPqidongyequguanggaoultra+231
+      name: AdBlocker_231
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail
-      name: APPqidongyequguanggaoultra+232
+      name: AdBlocker_232
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar
-      name: APPqidongyequguanggaoultra+233
+      name: AdBlocker_233
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.rr\.tv\/ad\/getAll
-      name: APPqidongyequguanggaoultra+234
+      name: AdBlocker_234
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info
-      name: APPqidongyequguanggaoultra+235
+      name: AdBlocker_235
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start
-      name: APPqidongyequguanggaoultra+236
+      name: AdBlocker_236
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms)
-      name: APPqidongyequguanggaoultra+237
+      name: AdBlocker_237
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show
-      name: APPqidongyequguanggaoultra+238
+      name: AdBlocker_238
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show
-      name: APPqidongyequguanggaoultra+239
+      name: AdBlocker_239
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\?
-      name: APPqidongyequguanggaoultra+240
+      name: AdBlocker_240
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom
-      name: APPqidongyequguanggaoultra+241
+      name: AdBlocker_241
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed
-      name: APPqidongyequguanggaoultra+242
+      name: AdBlocker_242
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/twins\/v4\/feed\/course
-      name: APPqidongyequguanggaoultra+243
+      name: AdBlocker_243
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport
-      name: APPqidongyequguanggaoultra+244
+      name: AdBlocker_244
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview
-      name: APPqidongyequguanggaoultra+245
+      name: AdBlocker_245
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab
-      name: APPqidongyequguanggaoultra+246
+      name: AdBlocker_246
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic
-      name: APPqidongyequguanggaoultra+247
+      name: AdBlocker_247
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic
-      name: APPqidongyequguanggaoultra+248
+      name: AdBlocker_248
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$
-      name: APPqidongyequguanggaoultra+249
+      name: AdBlocker_249
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$
-      name: APPqidongyequguanggaoultra+250
+      name: AdBlocker_250
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\?
-      name: APPqidongyequguanggaoultra+251
+      name: AdBlocker_251
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.coolapk\.com\/v6\/page\/dataList\?
-      name: APPqidongyequguanggaoultra+252
+      name: AdBlocker_252
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init)
-      name: APPqidongyequguanggaoultra+253
+      name: AdBlocker_253
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?
-      name: APPqidongyequguanggaoultra+254
+      name: AdBlocker_254
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList)
-      name: APPqidongyequguanggaoultra+255
+      name: AdBlocker_255
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.caiyunapp\.com\/v\d\/activity
-      name: APPqidongyequguanggaoultra+256
+      name: AdBlocker_256
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.bili(api|bili)\.(net|com)\/pgc\/season\/app\/related\/recommend\?
-      name: APPqidongyequguanggaoultra+257
+      name: AdBlocker_257
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?
-      name: APPqidongyequguanggaoultra+258
+      name: AdBlocker_258
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi
-      name: APPqidongyequguanggaoultra+259
+      name: AdBlocker_259
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.juxingclub.com\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY
-      name: APPqidongyequguanggaoultra+260
+      name: AdBlocker_260
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.juxingclub.com\/app\/config\/h5NativeBar
-      name: APPqidongyequguanggaoultra+261
+      name: AdBlocker_261
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.coolapk.com\/v6\/main\/init
-      name: APPqidongyequguanggaoultra+262
+      name: AdBlocker_262
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.coolapk.com\/v6\/main\/indexV8
-      name: APPqidongyequguanggaoultra+263
+      name: AdBlocker_263
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.coolapk.com\/v6\/feed\/replyList
-      name: APPqidongyequguanggaoultra+264
+      name: AdBlocker_264
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.coolapk.com\/v6\/feed\/detail
-      name: APPqidongyequguanggaoultra+265
+      name: AdBlocker_265
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.coolapk.com\/v6\/dataList
-      name: APPqidongyequguanggaoultra+266
+      name: AdBlocker_266
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api-user\.soulapp\.cn\/v\d\/planet\/config
-      name: APPqidongyequguanggaoultra+267
+      name: AdBlocker_267
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api-user\.soulapp\.cn\/furion\/position\/content
-      name: APPqidongyequguanggaoultra+268
+      name: AdBlocker_268
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo
-      name: APPqidongyequguanggaoultra+269
+      name: AdBlocker_269
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api-account\.soulapp\.cn\/teenager\/config
-      name: APPqidongyequguanggaoultra+270
+      name: AdBlocker_270
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list
-      name: APPqidongyequguanggaoultra+271
+      name: AdBlocker_271
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api-a\.soulapp\.cn\/official\/scene\/module
-      name: APPqidongyequguanggaoultra+272
+      name: AdBlocker_272
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/adserviceretry\.kglink\.cn\/v\d\/mobile\w+
-      name: APPqidongyequguanggaoultra+273
+      name: AdBlocker_273
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
-      name: APPqidongyequguanggaoultra+274
+      name: AdBlocker_274
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
-      name: APPqidongyequguanggaoultra+275
+      name: AdBlocker_275
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch
-      name: APPqidongyequguanggaoultra+276
+      name: AdBlocker_276
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config2
-      name: APPqidongyequguanggaoultra+277
+      name: AdBlocker_277
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.haidai\.lantern\.appconfig\.get
-      name: APPqidongyequguanggaoultra+278
+      name: AdBlocker_278
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query|ycp\.query)
-      name: APPqidongyequguanggaoultra+279
+      name: AdBlocker_279
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(index|my)page
-      name: APPqidongyequguanggaoultra+280
+      name: AdBlocker_280
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/access\.if\.iqiyi\.com\/3f1\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?
-      name: APPqidongyequguanggaoultra+281
+      name: AdBlocker_281
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
-      name: APPqidongyequguanggaoultra+282
+      name: AdBlocker_282
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1
-      name: APPqidongyequguanggaoultra+283
+      name: AdBlocker_283
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/[\d\.]+\/3f1\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?
-      name: APPqidongyequguanggaoultra+284
+      name: AdBlocker_284
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/47\.110\.187\.87\/winterfell\/v2\/getIpByDomain
-      name: APPqidongyequguanggaoultra+285
+      name: AdBlocker_285
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1
-      name: APPqidongyequguanggaoultra+286
+      name: AdBlocker_286
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.+?\.(pipi|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|(\/|)vod\/reqplay\/)
-      name: APPqidongyequguanggaoultra+287
+      name: AdBlocker_287
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*zdmimg\.com\/cpm\/api\/v\d\/advert_distribution\/get_all_advertise
-      name: APPqidongyequguanggaoultra+288
+      name: AdBlocker_288
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*v2ex\.com\/($|t\/\d+)
-      name: APPqidongyequguanggaoultra+289
+      name: AdBlocker_289
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*cupid\.iqiyi\.com\/mixer\?
-      name: APPqidongyequguanggaoultra+290
+      name: AdBlocker_290
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage
-      name: APPqidongyequguanggaoultra+291
+      name: AdBlocker_291
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage
-      name: APPqidongyequguanggaoultra+292
+      name: AdBlocker_292
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic
-      name: APPqidongyequguanggaoultra+293
+      name: AdBlocker_293
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic
-      name: APPqidongyequguanggaoultra+294
+      name: AdBlocker_294
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix
-      name: APPqidongyequguanggaoultra+295
+      name: AdBlocker_295
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix
-      name: APPqidongyequguanggaoultra+296
+      name: AdBlocker_296
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category
-      name: APPqidongyequguanggaoultra+297
+      name: AdBlocker_297
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category
-      name: APPqidongyequguanggaoultra+298
+      name: AdBlocker_298
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories
-      name: APPqidongyequguanggaoultra+299
+      name: AdBlocker_299
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories
-      name: APPqidongyequguanggaoultra+300
+      name: AdBlocker_300
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/valueadded\/alimama\/splash_screen
-      name: APPqidongyequguanggaoultra+301
+      name: AdBlocker_301
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/shield\/search\/new_hotword
-      name: APPqidongyequguanggaoultra+302
+      name: AdBlocker_302
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/shield\/search\/nearbyrec_smart
-      name: APPqidongyequguanggaoultra+303
+      name: AdBlocker_303
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable
-      name: APPqidongyequguanggaoultra+304
+      name: AdBlocker_304
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaas
-      name: APPqidongyequguanggaoultra+305
+      name: AdBlocker_305
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/promotion-web\/resource
-      name: APPqidongyequguanggaoultra+306
+      name: AdBlocker_306
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/msgbox\/pull
-      name: APPqidongyequguanggaoultra+307
+      name: AdBlocker_307
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/message\/notice\/list
-      name: APPqidongyequguanggaoultra+308
+      name: AdBlocker_308
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/main-page
-      name: APPqidongyequguanggaoultra+309
+      name: AdBlocker_309
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*(xbwpys|ahhhhfs)\.com\/($|[0-9a-zA-Z_/]+\/$)
-      name: APPqidongyequguanggaoultra+310
+      name: AdBlocker_310
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/event_detail|news_feed\/hot_module_list))
-      name: APPqidongyequguanggaoultra+311
+      name: AdBlocker_311
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/(mgxhtj|nmobi|searchrecterm)\.kuwo\.cn\/(mgxh|mobi|recterm)\.s
-      name: APPqidongyequguanggaoultra+312
+      name: AdBlocker_312
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\?
-      name: APPqidongyequguanggaoultra+313
+      name: AdBlocker_313
       type: response
       require-body: true
       timeout: 10
     - match: ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
-      name: APPqidongyequguanggaoultra+318
+      name: AdBlocker_318
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(articles|answers)\/\d+\/recommendations?\?
-      name: APPqidongyequguanggaoultra+319
+      name: AdBlocker_319
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/vue3-api\.zhixiny\.cn\/v1\/initui\?key=index
-      name: APPqidongyequguanggaoultra+320
+      name: AdBlocker_320
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/tiebac\.baidu\.com\/tiebaads\/commonbatch\?
-      name: APPqidongyequguanggaoultra+321
+      name: AdBlocker_321
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad
-      name: APPqidongyequguanggaoultra+322
+      name: AdBlocker_322
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json
-      name: APPqidongyequguanggaoultra+323
+      name: AdBlocker_323
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
-      name: APPqidongyequguanggaoultra+324
+      name: AdBlocker_324
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/pan\.baidu\.com\/api\/getsyscfg\?
-      name: APPqidongyequguanggaoultra+325
+      name: AdBlocker_325
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/nex\.163\.com\/q
-      name: APPqidongyequguanggaoultra+326
+      name: AdBlocker_326
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads
-      name: APPqidongyequguanggaoultra+327
+      name: AdBlocker_327
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list
-      name: APPqidongyequguanggaoultra+328
+      name: AdBlocker_328
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/mcsp\.cloudpnr\.com\/api\/miniapp\/popular\/T_MINIAPP$
-      name: APPqidongyequguanggaoultra+329
+      name: AdBlocker_329
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
-      name: APPqidongyequguanggaoultra+330
+      name: AdBlocker_330
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent
-      name: APPqidongyequguanggaoultra+331
+      name: AdBlocker_331
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word
-      name: APPqidongyequguanggaoultra+332
+      name: AdBlocker_332
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\?
-      name: APPqidongyequguanggaoultra+333
+      name: AdBlocker_333
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get)
-      name: APPqidongyequguanggaoultra+334
+      name: AdBlocker_334
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow
-      name: APPqidongyequguanggaoultra+335
+      name: AdBlocker_335
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/gateway\.kugou\.com\/(adp\/ad\/v1\/mine_top_banner|ads\.gateway\/v2\/home_card)
-      name: APPqidongyequguanggaoultra+336
+      name: AdBlocker_336
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/appcloud2\.zhihu\.com\/v3\/config
-      name: APPqidongyequguanggaoultra+337
+      name: AdBlocker_337
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list
-      name: APPqidongyequguanggaoultra+338
+      name: AdBlocker_338
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?
-      name: APPqidongyequguanggaoultra+339
+      name: AdBlocker_339
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/topstory\/recommend
-      name: APPqidongyequguanggaoultra+340
+      name: AdBlocker_340
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/questions\/\d+(\/answers|\/feeds|\?include=)
-      name: APPqidongyequguanggaoultra+341
+      name: AdBlocker_341
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/next-(bff|data|render)\?
-      name: APPqidongyequguanggaoultra+342
+      name: AdBlocker_342
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?
-      name: APPqidongyequguanggaoultra+343
+      name: AdBlocker_343
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer
-      name: APPqidongyequguanggaoultra+344
+      name: AdBlocker_344
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\?
-      name: APPqidongyequguanggaoultra+345
+      name: AdBlocker_345
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/hot-lists\/total|topstory\/recommend)
-      name: APPqidongyequguanggaoultra+346
+      name: AdBlocker_346
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.zhihu\.com\/(answers|articles)\/v2\/\d+
-      name: APPqidongyequguanggaoultra+347
+      name: AdBlocker_347
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.m\.mi\.com\/v1\/(app\/start|order\/expressView)
-      name: APPqidongyequguanggaoultra+348
+      name: AdBlocker_348
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome)
-      name: APPqidongyequguanggaoultra+349
+      name: AdBlocker_349
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?
-      name: APPqidongyequguanggaoultra+350
+      name: AdBlocker_350
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init)
-      name: APPqidongyequguanggaoultra+351
+      name: AdBlocker_351
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?
-      name: APPqidongyequguanggaoultra+352
+      name: AdBlocker_352
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.boohee\.com\/open-interface\/v1\/string\/market_page\?title=metabolism_config$
-      name: APPqidongyequguanggaoultra+353
+      name: AdBlocker_353
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.boohee\.com\/meta-interface\/v2\/index\?
-      name: APPqidongyequguanggaoultra+354
+      name: AdBlocker_354
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/plaza\?
-      name: APPqidongyequguanggaoultra+355
+      name: AdBlocker_355
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets)
-      name: APPqidongyequguanggaoultra+356
+      name: AdBlocker_356
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/api.juxingclub.com\/ad\/getAll
-      name: APPqidongyequguanggaoultra+357
+      name: AdBlocker_357
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/
-      name: APPqidongyequguanggaoultra+358
+      name: AdBlocker_358
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$
-      name: APPqidongyequguanggaoultra+359
+      name: AdBlocker_359
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/2023\.redircdn\.com\/web\/mob_post\.js\?
-      name: APPqidongyequguanggaoultra+360
+      name: AdBlocker_360
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v6\/detail_recommend_feeds\?
-      name: APPqidongyequguanggaoultra+361
+      name: AdBlocker_361
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\?
-      name: APPqidongyequguanggaoultra+362
+      name: AdBlocker_362
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.shade\/
-      name: APPqidongyequguanggaoultra+364
+      name: AdBlocker_364
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/
-      name: APPqidongyequguanggaoultra+365
+      name: AdBlocker_365
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.user\.strategy\.list\/
-      name: APPqidongyequguanggaoultra+366
+      name: AdBlocker_366
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/
-      name: APPqidongyequguanggaoultra+367
+      name: AdBlocker_367
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.home\.whale\.modulet\/
-      name: APPqidongyequguanggaoultra+368
+      name: AdBlocker_368
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets)
-      name: APPqidongyequguanggaoultra+369
+      name: AdBlocker_369
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(api\.hechuangxinxi\.xyz|jdforrepam\.com)\/api\/(v1\/(ads|startup|users)|v4\/movies\/\w+)
-      name: APPqidongyequguanggaoultra+370
+      name: AdBlocker_370
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?)
-      name: APPqidongyequguanggaoultra+371
+      name: AdBlocker_371
       type: response
       require-body: true
       timeout: 10
     - match: ^https://new.vip.weibo.cn/littleskin/preview
-      name: APPqidongyequguanggaoultra+372
+      name: AdBlocker_372
       type: response
       require-body: true
       timeout: 10
     - match: ^https://app.bilibili.com/x/v2/search/square
-      name: APPqidongyequguanggaoultra+373
+      name: AdBlocker_373
       type: response
       require-body: true
       timeout: 10
     - match: ^https://api.weibo.cn/2/!/client/light_skin
-      name: APPqidongyequguanggaoultra+374
+      name: AdBlocker_374
       type: response
       require-body: true
       timeout: 10
     - match: ^http?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$
-      name: APPqidongyequguanggaoultra+375
+      name: AdBlocker_375
       type: response
       require-body: true
       timeout: 10
     - match: ^http:\/\/c\.tieba\.baidu\.com\/c\/s\/sync$
-      name: APPqidongyequguanggaoultra+376
+      name: AdBlocker_376
       type: response
       require-body: true
       timeout: 10
     - match: ^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(excellent\/personalized|frs\/(generalTabList|page|threadlist)|pb\/(pic)?page)\?cmd
-      name: APPqidongyequguanggaoultra+377
+      name: AdBlocker_377
       type: response
       require-body: true
       timeout: 10
     - match: ^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(excellent\/personalized|frs\/(generalTabList|page|threadlist)|pb\/(pic)?page)$
-      name: APPqidongyequguanggaoultra+378
+      name: AdBlocker_378
       type: response
       require-body: true
       timeout: 10
     - match: ^http:\/\/amdc\.m\.taobao\.com
-      name: APPqidongyequguanggaoultra+379
+      name: AdBlocker_379
       type: response
       require-body: true
       timeout: 10
     - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd
-      name: APPqidongyequguanggaoultra+380
+      name: AdBlocker_380
       type: response
       require-body: true
       timeout: 10
     - match: ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)$|tiebaads\/commonbatch|c\/s\/sync$)
-      name: APPqidongyequguanggaoultra+381
+      name: AdBlocker_381
       type: response
       require-body: true
       timeout: 10
     - match: ^(https?://)?([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\.)+[a-zA-Z]{2
-      name: APPqidongyequguanggaoultra+382
+      name: AdBlocker_382
       type: response
       require-body: true
       timeout: 10
@@ -4486,1125 +4486,1125 @@ http:
     - (^https?://passport\.biliintl\.com/x/intl/passport-login/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 302
     - (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 302
 script-providers:
-  APPqidongyequguanggaoultra+1:
+  AdBlocker_1:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
     interval: 86400
-  APPqidongyequguanggaoultra+2:
+  AdBlocker_2:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
     interval: 86400
-  APPqidongyequguanggaoultra+4:
+  AdBlocker_4:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
     interval: 86400
-  APPqidongyequguanggaoultra+6:
+  AdBlocker_6:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
     interval: 86400
-  APPqidongyequguanggaoultra+8:
+  AdBlocker_8:
     url: https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js
     interval: 86400
-  APPqidongyequguanggaoultra+9:
+  AdBlocker_9:
     url: https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js
     interval: 86400
-  APPqidongyequguanggaoultra+10:
+  AdBlocker_10:
     url: https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/AdBlock/xmApp/xmApp.js
     interval: 86400
-  APPqidongyequguanggaoultra+11:
+  AdBlocker_11:
     url: https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+12:
+  AdBlocker_12:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+13:
+  AdBlocker_13:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+14:
+  AdBlocker_14:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+15:
+  AdBlocker_15:
     url: https://github.com/ddgksf2013/Scripts/raw/master/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+16:
+  AdBlocker_16:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
     interval: 86400
-  APPqidongyequguanggaoultra+17:
+  AdBlocker_17:
     url: https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
     interval: 86400
-  APPqidongyequguanggaoultra+18:
+  AdBlocker_18:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weixin110.js
     interval: 86400
-  APPqidongyequguanggaoultra+19:
+  AdBlocker_19:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+20:
+  AdBlocker_20:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+21:
+  AdBlocker_21:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+22:
+  AdBlocker_22:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/ccbLifeAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+23:
+  AdBlocker_23:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhangshanggongjiao.js
     interval: 86400
-  APPqidongyequguanggaoultra+24:
+  AdBlocker_24:
     url: https://github.com/ddgksf2013/Scripts/raw/master/zhangshanggongjiao.js
     interval: 86400
-  APPqidongyequguanggaoultra+25:
+  AdBlocker_25:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+26:
+  AdBlocker_26:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+27:
+  AdBlocker_27:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+28:
+  AdBlocker_28:
     url: https://github.com/ddgksf2013/Scripts/raw/master/fly.js
     interval: 86400
-  APPqidongyequguanggaoultra+29:
+  AdBlocker_29:
     url: https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/flyert.js
     interval: 86400
-  APPqidongyequguanggaoultra+30:
+  AdBlocker_30:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lvtusuishenting/ltsst-ad.js
     interval: 86400
-  APPqidongyequguanggaoultra+31:
+  AdBlocker_31:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+32:
+  AdBlocker_32:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+33:
+  AdBlocker_33:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+34:
+  AdBlocker_34:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+35:
+  AdBlocker_35:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+36:
+  AdBlocker_36:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_topic.json
     interval: 86400
-  APPqidongyequguanggaoultra+37:
+  AdBlocker_37:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+38:
+  AdBlocker_38:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_search_info.json
     interval: 86400
-  APPqidongyequguanggaoultra+39:
+  AdBlocker_39:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
     interval: 86400
-  APPqidongyequguanggaoultra+40:
+  AdBlocker_40:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
     interval: 86400
-  APPqidongyequguanggaoultra+41:
+  AdBlocker_41:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/smzdm/smzdm_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+42:
+  AdBlocker_42:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+43:
+  AdBlocker_43:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+44:
+  AdBlocker_44:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+45:
+  AdBlocker_45:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/fenbi.js
     interval: 86400
-  APPqidongyequguanggaoultra+46:
+  AdBlocker_46:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+47:
+  AdBlocker_47:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+48:
+  AdBlocker_48:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+49:
+  AdBlocker_49:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+50:
+  AdBlocker_50:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+51:
+  AdBlocker_51:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+52:
+  AdBlocker_52:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+53:
+  AdBlocker_53:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/blued.js
     interval: 86400
-  APPqidongyequguanggaoultra+54:
+  AdBlocker_54:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+55:
+  AdBlocker_55:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bing.js
     interval: 86400
-  APPqidongyequguanggaoultra+56:
+  AdBlocker_56:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+57:
+  AdBlocker_57:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+58:
+  AdBlocker_58:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+59:
+  AdBlocker_59:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+60:
+  AdBlocker_60:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+61:
+  AdBlocker_61:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+62:
+  AdBlocker_62:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+63:
+  AdBlocker_63:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+64:
+  AdBlocker_64:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+65:
+  AdBlocker_65:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+66:
+  AdBlocker_66:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+67:
+  AdBlocker_67:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
     interval: 86400
-  APPqidongyequguanggaoultra+68:
+  AdBlocker_68:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/quark.js
     interval: 86400
-  APPqidongyequguanggaoultra+69:
+  AdBlocker_69:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/quark.js
     interval: 86400
-  APPqidongyequguanggaoultra+70:
+  AdBlocker_70:
     url: https://github.com/ddgksf2013/Scripts/raw/master/pixivAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+71:
+  AdBlocker_71:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/baidumap.js
     interval: 86400
-  APPqidongyequguanggaoultra+72:
+  AdBlocker_72:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ithome.js
     interval: 86400
-  APPqidongyequguanggaoultra+73:
+  AdBlocker_73:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js
     interval: 86400
-  APPqidongyequguanggaoultra+74:
+  AdBlocker_74:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
     interval: 86400
-  APPqidongyequguanggaoultra+75:
+  AdBlocker_75:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+76:
+  AdBlocker_76:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/scripts/Flightradar24.js
     interval: 86400
-  APPqidongyequguanggaoultra+77:
+  AdBlocker_77:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+78:
+  AdBlocker_78:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+79:
+  AdBlocker_79:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+80:
+  AdBlocker_80:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+81:
+  AdBlocker_81:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+82:
+  AdBlocker_82:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaotucc.js
     interval: 86400
-  APPqidongyequguanggaoultra+83:
+  AdBlocker_83:
     url: https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mafengwo.js
     interval: 86400
-  APPqidongyequguanggaoultra+84:
+  AdBlocker_84:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/qidian.js
     interval: 86400
-  APPqidongyequguanggaoultra+85:
+  AdBlocker_85:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+86:
+  AdBlocker_86:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+87:
+  AdBlocker_87:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+88:
+  AdBlocker_88:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+89:
+  AdBlocker_89:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+90:
+  AdBlocker_90:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+91:
+  AdBlocker_91:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+92:
+  AdBlocker_92:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+93:
+  AdBlocker_93:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+94:
+  AdBlocker_94:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+95:
+  AdBlocker_95:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+96:
+  AdBlocker_96:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pupumarket.js
     interval: 86400
-  APPqidongyequguanggaoultra+97:
+  AdBlocker_97:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/PupuSplashAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+98:
+  AdBlocker_98:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/QuDa.js
     interval: 86400
-  APPqidongyequguanggaoultra+99:
+  AdBlocker_99:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+100:
+  AdBlocker_100:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+101:
+  AdBlocker_101:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+102:
+  AdBlocker_102:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+103:
+  AdBlocker_103:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+104:
+  AdBlocker_104:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+105:
+  AdBlocker_105:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+106:
+  AdBlocker_106:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+107:
+  AdBlocker_107:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+108:
+  AdBlocker_108:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+109:
+  AdBlocker_109:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+110:
+  AdBlocker_110:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+111:
+  AdBlocker_111:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+112:
+  AdBlocker_112:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+113:
+  AdBlocker_113:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+114:
+  AdBlocker_114:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+115:
+  AdBlocker_115:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+116:
+  AdBlocker_116:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+117:
+  AdBlocker_117:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+118:
+  AdBlocker_118:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+119:
+  AdBlocker_119:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+120:
+  AdBlocker_120:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+121:
+  AdBlocker_121:
     url: https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
     interval: 86400
-  APPqidongyequguanggaoultra+122:
+  AdBlocker_122:
     url: https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/dianping.js
     interval: 86400
-  APPqidongyequguanggaoultra+123:
+  AdBlocker_123:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+124:
+  AdBlocker_124:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+125:
+  AdBlocker_125:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+126:
+  AdBlocker_126:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+127:
+  AdBlocker_127:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+128:
+  AdBlocker_128:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+129:
+  AdBlocker_129:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+130:
+  AdBlocker_130:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+131:
+  AdBlocker_131:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+132:
+  AdBlocker_132:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+133:
+  AdBlocker_133:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+134:
+  AdBlocker_134:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/reddit.js
     interval: 86400
-  APPqidongyequguanggaoultra+135:
+  AdBlocker_135:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/caixin/caixinAd.js
     interval: 86400
-  APPqidongyequguanggaoultra+136:
+  AdBlocker_136:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js
     interval: 86400
-  APPqidongyequguanggaoultra+137:
+  AdBlocker_137:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+138:
+  AdBlocker_138:
     url: https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/alicdn.js
     interval: 86400
-  APPqidongyequguanggaoultra+139:
+  AdBlocker_139:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+140:
+  AdBlocker_140:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+141:
+  AdBlocker_141:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+142:
+  AdBlocker_142:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+143:
+  AdBlocker_143:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+144:
+  AdBlocker_144:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+145:
+  AdBlocker_145:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+146:
+  AdBlocker_146:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+147:
+  AdBlocker_147:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+148:
+  AdBlocker_148:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+149:
+  AdBlocker_149:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+150:
+  AdBlocker_150:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+151:
+  AdBlocker_151:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+152:
+  AdBlocker_152:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+153:
+  AdBlocker_153:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+154:
+  AdBlocker_154:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+155:
+  AdBlocker_155:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+156:
+  AdBlocker_156:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+157:
+  AdBlocker_157:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+158:
+  AdBlocker_158:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+159:
+  AdBlocker_159:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+160:
+  AdBlocker_160:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+161:
+  AdBlocker_161:
     url: https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+162:
+  AdBlocker_162:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js
     interval: 86400
-  APPqidongyequguanggaoultra+163:
+  AdBlocker_163:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/youdao/dict-youdao-ad.js
     interval: 86400
-  APPqidongyequguanggaoultra+164:
+  AdBlocker_164:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+165:
+  AdBlocker_165:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+166:
+  AdBlocker_166:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+167:
+  AdBlocker_167:
     url: https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/51job.js
     interval: 86400
-  APPqidongyequguanggaoultra+168:
+  AdBlocker_168:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+169:
+  AdBlocker_169:
     url: https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/mdb.js
     interval: 86400
-  APPqidongyequguanggaoultra+170:
+  AdBlocker_170:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+171:
+  AdBlocker_171:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+172:
+  AdBlocker_172:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+173:
+  AdBlocker_173:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
     interval: 86400
-  APPqidongyequguanggaoultra+174:
+  AdBlocker_174:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didi.js
     interval: 86400
-  APPqidongyequguanggaoultra+175:
+  AdBlocker_175:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+176:
+  AdBlocker_176:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
     interval: 86400
-  APPqidongyequguanggaoultra+177:
+  AdBlocker_177:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+178:
+  AdBlocker_178:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+179:
+  AdBlocker_179:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
     interval: 86400
-  APPqidongyequguanggaoultra+180:
+  AdBlocker_180:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
     interval: 86400
-  APPqidongyequguanggaoultra+181:
+  AdBlocker_181:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+182:
+  AdBlocker_182:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+183:
+  AdBlocker_183:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+184:
+  AdBlocker_184:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+185:
+  AdBlocker_185:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+186:
+  AdBlocker_186:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+187:
+  AdBlocker_187:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+188:
+  AdBlocker_188:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/baishitv.js
     interval: 86400
-  APPqidongyequguanggaoultra+189:
+  AdBlocker_189:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+190:
+  AdBlocker_190:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+191:
+  AdBlocker_191:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+192:
+  AdBlocker_192:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+193:
+  AdBlocker_193:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
     interval: 86400
-  APPqidongyequguanggaoultra+194:
+  AdBlocker_194:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+195:
+  AdBlocker_195:
     url: https://github.com/ddgksf2013/Scripts/raw/master/qidian.js
     interval: 86400
-  APPqidongyequguanggaoultra+196:
+  AdBlocker_196:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+197:
+  AdBlocker_197:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js
     interval: 86400
-  APPqidongyequguanggaoultra+198:
+  AdBlocker_198:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+199:
+  AdBlocker_199:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+200:
+  AdBlocker_200:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+201:
+  AdBlocker_201:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+202:
+  AdBlocker_202:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+203:
+  AdBlocker_203:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/vgtime.js
     interval: 86400
-  APPqidongyequguanggaoultra+204:
+  AdBlocker_204:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+205:
+  AdBlocker_205:
     url: https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
     interval: 86400
-  APPqidongyequguanggaoultra+206:
+  AdBlocker_206:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+207:
+  AdBlocker_207:
     url: https://github.com/ddgksf2013/Scripts/raw/master/dict.js
     interval: 86400
-  APPqidongyequguanggaoultra+208:
+  AdBlocker_208:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+209:
+  AdBlocker_209:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+210:
+  AdBlocker_210:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+211:
+  AdBlocker_211:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+212:
+  AdBlocker_212:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+213:
+  AdBlocker_213:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+214:
+  AdBlocker_214:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+215:
+  AdBlocker_215:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+216:
+  AdBlocker_216:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+217:
+  AdBlocker_217:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+218:
+  AdBlocker_218:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+219:
+  AdBlocker_219:
     url: https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js
     interval: 86400
-  APPqidongyequguanggaoultra+220:
+  AdBlocker_220:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+221:
+  AdBlocker_221:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+222:
+  AdBlocker_222:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+223:
+  AdBlocker_223:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+224:
+  AdBlocker_224:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+225:
+  AdBlocker_225:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/yx.js
     interval: 86400
-  APPqidongyequguanggaoultra+226:
+  AdBlocker_226:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/51card.js
     interval: 86400
-  APPqidongyequguanggaoultra+227:
+  AdBlocker_227:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/51card.js
     interval: 86400
-  APPqidongyequguanggaoultra+228:
+  AdBlocker_228:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soda.js
     interval: 86400
-  APPqidongyequguanggaoultra+229:
+  AdBlocker_229:
     url: https://github.com/ddgksf2013/Scripts/raw/master/stay.js
     interval: 86400
-  APPqidongyequguanggaoultra+230:
+  AdBlocker_230:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+231:
+  AdBlocker_231:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+232:
+  AdBlocker_232:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+233:
+  AdBlocker_233:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+234:
+  AdBlocker_234:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+235:
+  AdBlocker_235:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+236:
+  AdBlocker_236:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+237:
+  AdBlocker_237:
     url: https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+238:
+  AdBlocker_238:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jingxiAd.js
     interval: 86400
-  APPqidongyequguanggaoultra+239:
+  AdBlocker_239:
     url: https://github.com/ddgksf2013/Scripts/raw/master/startup.js
     interval: 86400
-  APPqidongyequguanggaoultra+240:
+  AdBlocker_240:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+241:
+  AdBlocker_241:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+242:
+  AdBlocker_242:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+243:
+  AdBlocker_243:
     url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
     interval: 86400
-  APPqidongyequguanggaoultra+244:
+  AdBlocker_244:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
     interval: 86400
-  APPqidongyequguanggaoultra+245:
+  AdBlocker_245:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
     interval: 86400
-  APPqidongyequguanggaoultra+246:
+  AdBlocker_246:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
     interval: 86400
-  APPqidongyequguanggaoultra+247:
+  AdBlocker_247:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
     interval: 86400
-  APPqidongyequguanggaoultra+248:
+  AdBlocker_248:
     url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
     interval: 86400
-  APPqidongyequguanggaoultra+249:
+  AdBlocker_249:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
     interval: 86400
-  APPqidongyequguanggaoultra+250:
+  AdBlocker_250:
     url: https://github.com/ddgksf2013/Scripts/raw/master/keepStyle.js
     interval: 86400
-  APPqidongyequguanggaoultra+251:
+  AdBlocker_251:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+252:
+  AdBlocker_252:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+253:
+  AdBlocker_253:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+254:
+  AdBlocker_254:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+255:
+  AdBlocker_255:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+256:
+  AdBlocker_256:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+257:
+  AdBlocker_257:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+258:
+  AdBlocker_258:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+259:
+  AdBlocker_259:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+260:
+  AdBlocker_260:
     url: https://github.com/ddgksf2013/Scripts/raw/master/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+261:
+  AdBlocker_261:
     url: https://github.com/ddgksf2013/Scripts/raw/master/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+262:
+  AdBlocker_262:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+263:
+  AdBlocker_263:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+264:
+  AdBlocker_264:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+265:
+  AdBlocker_265:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+266:
+  AdBlocker_266:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+267:
+  AdBlocker_267:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+268:
+  AdBlocker_268:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+269:
+  AdBlocker_269:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+270:
+  AdBlocker_270:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+271:
+  AdBlocker_271:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+272:
+  AdBlocker_272:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+273:
+  AdBlocker_273:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/kugou.js
     interval: 86400
-  APPqidongyequguanggaoultra+274:
+  AdBlocker_274:
     url: https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js
     interval: 86400
-  APPqidongyequguanggaoultra+275:
+  AdBlocker_275:
     url: https://github.com/ddgksf2013/Scripts/raw/master/12306.js
     interval: 86400
-  APPqidongyequguanggaoultra+276:
+  AdBlocker_276:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+277:
+  AdBlocker_277:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+278:
+  AdBlocker_278:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+279:
+  AdBlocker_279:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+280:
+  AdBlocker_280:
     url: https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/freshippo.js
     interval: 86400
-  APPqidongyequguanggaoultra+281:
+  AdBlocker_281:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+282:
+  AdBlocker_282:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
     interval: 86400
-  APPqidongyequguanggaoultra+283:
+  AdBlocker_283:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/555Ad.js
     interval: 86400
-  APPqidongyequguanggaoultra+284:
+  AdBlocker_284:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+285:
+  AdBlocker_285:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+286:
+  AdBlocker_286:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/fly.js
     interval: 86400
-  APPqidongyequguanggaoultra+287:
+  AdBlocker_287:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
     interval: 86400
-  APPqidongyequguanggaoultra+288:
+  AdBlocker_288:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+289:
+  AdBlocker_289:
     url: https://github.com/ddgksf2013/Scripts/raw/master/v2ex.js
     interval: 86400
-  APPqidongyequguanggaoultra+290:
+  AdBlocker_290:
     url: https://github.com/ddgksf2013/Scripts/raw/master/iqiyi_open_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+291:
+  AdBlocker_291:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+292:
+  AdBlocker_292:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+293:
+  AdBlocker_293:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+294:
+  AdBlocker_294:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+295:
+  AdBlocker_295:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+296:
+  AdBlocker_296:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+297:
+  AdBlocker_297:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+298:
+  AdBlocker_298:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+299:
+  AdBlocker_299:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xmly_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+300:
+  AdBlocker_300:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+301:
+  AdBlocker_301:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+302:
+  AdBlocker_302:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+303:
+  AdBlocker_303:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+304:
+  AdBlocker_304:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+305:
+  AdBlocker_305:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+306:
+  AdBlocker_306:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+307:
+  AdBlocker_307:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+308:
+  AdBlocker_308:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+309:
+  AdBlocker_309:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amap.js
     interval: 86400
-  APPqidongyequguanggaoultra+310:
+  AdBlocker_310:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ahfs.js
     interval: 86400
-  APPqidongyequguanggaoultra+311:
+  AdBlocker_311:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js
     interval: 86400
-  APPqidongyequguanggaoultra+312:
+  AdBlocker_312:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
     interval: 86400
-  APPqidongyequguanggaoultra+313:
+  AdBlocker_313:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
     interval: 86400
-  APPqidongyequguanggaoultra+318:
+  AdBlocker_318:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+319:
+  AdBlocker_319:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+320:
+  AdBlocker_320:
     url: https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/AdBlock/xmApp/wnbz.js
     interval: 86400
-  APPqidongyequguanggaoultra+321:
+  AdBlocker_321:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js
     interval: 86400
-  APPqidongyequguanggaoultra+322:
+  AdBlocker_322:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/huifutianxia_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+323:
+  AdBlocker_323:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+324:
+  AdBlocker_324:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js
     interval: 86400
-  APPqidongyequguanggaoultra+325:
+  AdBlocker_325:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js
     interval: 86400
-  APPqidongyequguanggaoultra+326:
+  AdBlocker_326:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
     interval: 86400
-  APPqidongyequguanggaoultra+327:
+  AdBlocker_327:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/baidumap.js
     interval: 86400
-  APPqidongyequguanggaoultra+328:
+  AdBlocker_328:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
     interval: 86400
-  APPqidongyequguanggaoultra+329:
+  AdBlocker_329:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/huifutianxia_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+330:
+  AdBlocker_330:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+331:
+  AdBlocker_331:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cloud139.js
     interval: 86400
-  APPqidongyequguanggaoultra+332:
+  AdBlocker_332:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
     interval: 86400
-  APPqidongyequguanggaoultra+333:
+  AdBlocker_333:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/news163.js
     interval: 86400
-  APPqidongyequguanggaoultra+334:
+  AdBlocker_334:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+335:
+  AdBlocker_335:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js
     interval: 86400
-  APPqidongyequguanggaoultra+336:
+  AdBlocker_336:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/kugou.js
     interval: 86400
-  APPqidongyequguanggaoultra+337:
+  AdBlocker_337:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+338:
+  AdBlocker_338:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+339:
+  AdBlocker_339:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+340:
+  AdBlocker_340:
     url: https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
     interval: 86400
-  APPqidongyequguanggaoultra+341:
+  AdBlocker_341:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+342:
+  AdBlocker_342:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+343:
+  AdBlocker_343:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+344:
+  AdBlocker_344:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+345:
+  AdBlocker_345:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+346:
+  AdBlocker_346:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+347:
+  AdBlocker_347:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
     interval: 86400
-  APPqidongyequguanggaoultra+348:
+  AdBlocker_348:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+349:
+  AdBlocker_349:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
     interval: 86400
-  APPqidongyequguanggaoultra+350:
+  AdBlocker_350:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+351:
+  AdBlocker_351:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+352:
+  AdBlocker_352:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js
     interval: 86400
-  APPqidongyequguanggaoultra+353:
+  AdBlocker_353:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+354:
+  AdBlocker_354:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+355:
+  AdBlocker_355:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+356:
+  AdBlocker_356:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
     interval: 86400
-  APPqidongyequguanggaoultra+357:
+  AdBlocker_357:
     url: https://github.com/ddgksf2013/Scripts/raw/master/rrtv_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+358:
+  AdBlocker_358:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cloud139.js
     interval: 86400
-  APPqidongyequguanggaoultra+359:
+  AdBlocker_359:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js
     interval: 86400
-  APPqidongyequguanggaoultra+360:
+  AdBlocker_360:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+361:
+  AdBlocker_361:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+362:
+  AdBlocker_362:
     url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+364:
+  AdBlocker_364:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+365:
+  AdBlocker_365:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+366:
+  AdBlocker_366:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+367:
+  AdBlocker_367:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+368:
+  AdBlocker_368:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+369:
+  AdBlocker_369:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js
     interval: 86400
-  APPqidongyequguanggaoultra+370:
+  AdBlocker_370:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
     interval: 86400
-  APPqidongyequguanggaoultra+371:
+  AdBlocker_371:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
     interval: 86400
-  APPqidongyequguanggaoultra+372:
+  AdBlocker_372:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+373:
+  AdBlocker_373:
     url: https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+374:
+  AdBlocker_374:
     url: https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
     interval: 86400
-  APPqidongyequguanggaoultra+375:
+  AdBlocker_375:
     url: https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Umetrip/Umetrip_remove_ads.js
     interval: 86400
-  APPqidongyequguanggaoultra+376:
+  AdBlocker_376:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js
     interval: 86400
-  APPqidongyequguanggaoultra+377:
+  AdBlocker_377:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaProto.js
     interval: 86400
-  APPqidongyequguanggaoultra+378:
+  AdBlocker_378:
     url: https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/tiebaJson.js
     interval: 86400
-  APPqidongyequguanggaoultra+379:
+  AdBlocker_379:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amdc.js
     interval: 86400
-  APPqidongyequguanggaoultra+380:
+  AdBlocker_380:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
     interval: 86400
-  APPqidongyequguanggaoultra+381:
+  AdBlocker_381:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
     interval: 86400
-  APPqidongyequguanggaoultra+382:
+  AdBlocker_382:
     url: https://github.com/ddgksf2013/Scripts/raw/master/applet.js
     interval: 86400
