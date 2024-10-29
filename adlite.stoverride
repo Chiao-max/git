@@ -30,7 +30,6 @@ http:
     - "m-adphone.wenhua.com.cn"
     - "*.fenbi.com"
     - "api.medlive.cn"
-    - "smsrebuild1.mail.10086.cn"
     - "ad.mcloud.139.com"
     - "comapi.reader.qq.com"
     - "commontgw.reader.qq.com"
@@ -151,7 +150,6 @@ http:
     - "ztoread.ziroom.com"
     - "iphone.ac.qq.com"
     - "web.chelaile.net.cn"
-    - "gd.10086.cn"
     - "api.00bang.cn"
     - "app.hbooker.com"
     - "api.sfacg.com"
@@ -176,7 +174,6 @@ http:
     - "cn-acs.m.cainiao.com"
     - "zjdr666.com"
     - "api.ahmobile.cn"
-    - "gx.10086.cn"
     - "emdcadvertise.eastmoney.com"
     - "api-sams.walmartmobile.cn"
     - "creditcardapp.bankcomm.cn"
@@ -211,7 +208,6 @@ http:
     - "bgw.xinyue.qq.com"
     - "pan.baidu.com"
     - "yunbusiness.ccb.com"
-    - "client.app.coc.10086.cn"
     - "t1.market.xiaomi.com"
     - "api.m.mi.com"
     - "app.zhuanzhuan.com"
@@ -316,14 +312,12 @@ http:
     - "beta-api.crunchyroll.com"
     - "api.vistopia.com.cn"
     - "pss.txffp.com"
-    - "m.sd.10086.cn"
     - "helper.2bulu.com"
     - "47.100.65.202"
     - "api.weibo.cn"
     - "mapi.weibo.com"
     - "*.uve.weibo.com"
     - "new.vip.weibo.cn"
-    - "wap.js.10086.cn"
     - "tagit.hyhuo.com"
     - "top-widgets-api.xiaozujian.com"
     - "*mangaapi.manhuaren.*"
@@ -855,7 +849,6 @@ http:
     - ^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(index_pop_banner|startup_banner) - reject-200
     - ^https?:\/\/m\.api\.shaoxing\.com\.cn\/v\d\/start - reject-200
     - ^https:\/\/cn-app\.narwaltech\.com\/(operate\/(cactivity\/listByResourceIds|appPosition\/listSplash)|app-user-device-server\/v\d\/user-device\/getTips) - reject-200
-    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit - reject-200
     - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject-200
     - ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) - reject-200
     - ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) - reject-200
@@ -875,7 +868,6 @@ http:
     - ^https?:\/\/quanguo\.mygolbs\.com:8081\/MyBusServer\/servlet\/MyGoServer\.HttpPool\.HttpHandlerServlet - reject-200
     - ^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) - reject-200
     - ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend - reject-200
-    - ^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 - reject-200
     - ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/scjson\/tripAds - reject-200
     - ^https?:\/\/zjmbank\.js96008\.com:8090\/gw\/advert\/oprAdvertQry - reject-200
     - ^https?:\/\/app\.10099\.com\.cn\/contact-web\/api\/version\/getFlashScreenPage - reject-200
