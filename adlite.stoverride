@@ -1,6 +1,6 @@
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
 name: adblocker
-desc: app去广告轻量版
+desc: app去广告
 http:
   mitm:
     - "napi.ithome.com"
@@ -496,7 +496,6 @@ http:
   rewrite:
     - ^https?:\/\/2024.10.12/c347/v2.0.534 - reject-200
     - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject-200
-    - ^https?:\/\/ad\.mcloud\.139\.com\/advertapi - reject-200
     - ^https?:\/\/app\.58\.com\/api\/home\/(advertising|appadv) - reject-200
     - ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,3}(:\d+)?\/.*?\/v\d\/(version$|notice\?|top_notice\?|advert\?position=[^2]+) - reject-200
     - ^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery - reject-200
