@@ -373,122 +373,122 @@ http:
     - "m.ctrip.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
-      name: APPqidongyequguanggaolite1
+      name: adblockerlite1
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
-      name: APPqidongyequguanggaolite2
+      name: adblockerlite2
       type: response
       require-body: true
       timeout: 10
     - match: ^http:\/\/amdc\.m\.taobao\.com
-      name: APPqidongyequguanggaolite3
+      name: adblockerlite3
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*(xbwpys|ahhhhfs)\.com\/($|[0-9a-zA-Z_/]+\/$)
-      name: APPqidongyequguanggaolite4
+      name: adblockerlite4
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads
-      name: APPqidongyequguanggaolite5
+      name: adblockerlite5
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/audit\/home\/getCommonMixData
-      name: APPqidongyequguanggaolite6
+      name: adblockerlite6
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362
-      name: APPqidongyequguanggaolite7
+      name: adblockerlite7
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1
-      name: APPqidongyequguanggaolite8
+      name: adblockerlite8
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*cupid\.iqiyi\.com\/mixer\?
-      name: APPqidongyequguanggaolite9
+      name: adblockerlite9
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/napi\.ithome\.com\/api\/news\/indexv\d\/iphone
-      name: APPqidongyequguanggaolite10
+      name: adblockerlite10
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show
-      name: APPqidongyequguanggaolite11
+      name: adblockerlite11
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms)
-      name: APPqidongyequguanggaolite12
+      name: adblockerlite12
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList)
-      name: APPqidongyequguanggaolite13
+      name: adblockerlite13
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api.coolapk.com\/v6\/main\/init
-      name: APPqidongyequguanggaolite14
+      name: adblockerlite14
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms
-      name: APPqidongyequguanggaolite15
+      name: adblockerlite15
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v\d\?position
-      name: APPqidongyequguanggaolite16
+      name: adblockerlite16
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/apps\.teamair\.cn\/app\/version
-      name: APPqidongyequguanggaolite17
+      name: adblockerlite17
       type: response
       require-body: true
       timeout: 10
     - match: https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow
-      name: APPqidongyequguanggaolite18
+      name: adblockerlite18
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$
-      name: APPqidongyequguanggaolite19
+      name: adblockerlite19
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*zdmimg\.com\/cpm\/api\/v\d\/advert_distribution\/get_all_advertise
-      name: APPqidongyequguanggaolite20
+      name: adblockerlite20
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/toufang\/marketing
-      name: APPqidongyequguanggaolite21
+      name: adblockerlite21
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/.*v2ex\.com\/($|t\/\d+)
-      name: APPqidongyequguanggaolite22
+      name: adblockerlite22
       type: response
       require-body: true
       timeout: 10
     - match: ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
-      name: APPqidongyequguanggaolite23
+      name: adblockerlite23
       type: response
       require-body: true
       timeout: 10
     - match: ^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2
-      name: APPqidongyequguanggaolite24
+      name: adblockerlite24
       type: response
       require-body: true
       timeout: 10
@@ -878,85 +878,76 @@ http:
     - ^https?://m\.ctrip\.com/restapi/[\w/]+tripAds - reject
     - ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject-200
     - ^https?:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject-dict
-    - ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash|GetActivityTab) - reject-dict
-    - ^https?:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
-    - ^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report - reject-dict
-    - ^https?:\/\/api\.bilibili\.com\/pgc\/season\/player\/ogv\/cards - reject-dict
-    - ^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive - reject-dict
-    - ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default - reject
-    - ^https?://manga\.bilibili\.com/twirp/comic\.v\d\.Comic/Flash - reject
-    - ^https://app.bilibili.com/x/v2/splash/show - reject-dict
-    - ^https://api.bilibili.com/pgc/season/player/cards - reject-dict
 script-providers:
-  APPqidongyequguanggaolite1:
+  adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
     interval: 86400
-  APPqidongyequguanggaolite2:
+  adblockerlite2:
     url: https://github.com/ddgksf2013/Scripts/raw/master/12306.js
     interval: 86400
-  APPqidongyequguanggaolite3:
+  adblockerlite3:
     url: https://github.com/ddgksf2013/Scripts/raw/master/amdc.js
     interval: 86400
-  APPqidongyequguanggaolite4:
+  adblockerlite4:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ahfs.js
     interval: 86400
-  APPqidongyequguanggaolite5:
+  adblockerlite5:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/baidumap.js
     interval: 86400
-  APPqidongyequguanggaolite6:
+  adblockerlite6:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/baishitv.js
     interval: 86400
-  APPqidongyequguanggaolite7:
+  adblockerlite7:
     url: https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js
     interval: 86400
-  APPqidongyequguanggaolite8:
+  adblockerlite8:
     url: https://github.com/ddgksf2013/Scripts/raw/master/fly.js
     interval: 86400
-  APPqidongyequguanggaolite9:
+  adblockerlite9:
     url: https://github.com/ddgksf2013/Scripts/raw/master/iqiyi_open_ads.js
     interval: 86400
-  APPqidongyequguanggaolite10:
+  adblockerlite10:
     url: https://github.com/ddgksf2013/Scripts/raw/master/ithome.js
     interval: 86400
-  APPqidongyequguanggaolite11:
+  adblockerlite11:
     url: https://github.com/ddgksf2013/Scripts/raw/master/startup.js
     interval: 86400
-  APPqidongyequguanggaolite12:
+  adblockerlite12:
     url: https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
     interval: 86400
-  APPqidongyequguanggaolite13:
+  adblockerlite13:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaolite14:
+  adblockerlite14:
     url: https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
     interval: 86400
-  APPqidongyequguanggaolite15:
+  adblockerlite15:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/quark.js
     interval: 86400
-  APPqidongyequguanggaolite16:
+  adblockerlite16:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pupumarket.js
     interval: 86400
-  APPqidongyequguanggaolite17:
+  adblockerlite17:
     url: https://github.com/ddgksf2013/Scripts/raw/master/qidian.js
     interval: 86400
-  APPqidongyequguanggaolite18:
+  adblockerlite18:
     url: https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js
     interval: 86400
-  APPqidongyequguanggaolite19:
+  adblockerlite19:
     url: https://github.com/ddgksf2013/Scripts/raw/master/stay.js
     interval: 86400
-  APPqidongyequguanggaolite20:
+  adblockerlite20:
     url: https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
     interval: 86400
-  APPqidongyequguanggaolite21:
+  adblockerlite21:
     url: https://github.com/ddgksf2013/Scripts/raw/master/dict.js
     interval: 86400
-  APPqidongyequguanggaolite22:
+  adblockerlite22:
     url: https://github.com/ddgksf2013/Scripts/raw/master/v2ex.js
     interval: 86400
-  APPqidongyequguanggaolite23:
+  adblockerlite23:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weixin110.js
     interval: 86400
-  APPqidongyequguanggaolite24:
+  adblockerlite24:
     url: https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js
     interval: 86400
