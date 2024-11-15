@@ -2,8 +2,7 @@ name: |-
   adblocker
 desc: |-
   app去广告
-icon: |-
-  https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
+
 http:
   mitm:
     - "napi.ithome.com"
