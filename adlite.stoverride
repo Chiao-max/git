@@ -1,4 +1,4 @@
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
+icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
 name: adblocker
 desc: app去广告
 http:
