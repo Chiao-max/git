@@ -500,22 +500,22 @@ http:
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/
-      name: adblockerlite25
+      name: adblockerlite26
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.user\.strategy\.list\/
-      name: adblockerlite25
+      name: adblockerlite27
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/
-      name: adblockerlite25
+      name: adblockerlite28
       type: response
       require-body: true
       timeout: 10
     - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.home\.whale\.modulet\/
-      name: adblockerlite25
+      name: adblockerlite29
       type: response
       require-body: true
       timeout: 10
@@ -981,5 +981,17 @@ script-providers:
     url: https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js
     interval: 86400
   adblockerlite25:
+    url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
+    interval: 86400
+  adblockerlite26:
+    url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
+    interval: 86400
+  adblockerlite27:
+    url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
+    interval: 86400
+  adblockerlite28:
+    url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
+    interval: 86400
+  adblockerlite29:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
     interval: 86400
