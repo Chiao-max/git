@@ -494,6 +494,31 @@ http:
       type: response
       require-body: true
       timeout: 10
+    - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.shade\/
+      name: adblockerlite25
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/
+      name: adblockerlite25
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.user\.strategy\.list\/
+      name: adblockerlite25
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/
+      name: adblockerlite25
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.home\.whale\.modulet\/
+      name: adblockerlite25
+      type: response
+      require-body: true
+      timeout: 10
   rewrite:
     - ^https?:\/\/2024.10.12/c347/v2.0.534 - reject-200
     - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject-200
@@ -880,6 +905,8 @@ http:
     - ^https?://m\.ctrip\.com/restapi/[\w/]+tripAds - reject
     - ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject-200
     - ^https?:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject-dict
+    - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.discover\/ - reject-dict
+    - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ - reject-dict
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
@@ -952,4 +979,7 @@ script-providers:
     interval: 86400
   adblockerlite24:
     url: https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js
+    interval: 86400
+  adblockerlite25:
+    url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
     interval: 86400
