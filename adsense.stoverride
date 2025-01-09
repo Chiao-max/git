@@ -1,0 +1,26 @@
+name: |-
+  adsense
+desc: |-
+  adsense
+icon: |-
+  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1030.png
+
+http:
+
+  mitm:
+    - "api-access.pangolin-sdk-toutiao.com"
+    - "mi.gdt.qq.com"
+    - "open.e.kuaishou.com"
+
+  script:
+    - match: ^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union)
+      name: "adsense_4"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "adsense_4":
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
+    interval: 86400
