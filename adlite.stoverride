@@ -2,6 +2,8 @@ name: |-
   adblocker
 desc: |-
   app去广告
+icon: |-
+  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 
 http:
   mitm:
