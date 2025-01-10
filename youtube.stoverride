@@ -12,6 +12,7 @@ http:
     - "www.youtube.com"
     - "s.youtube.com"
     - "youtubei.googleapis.com"
+    - "www.googleadservices.com"
   url-rewrite:
 # ======= 视频广告请求 ======= #
     - >-
@@ -27,3 +28,5 @@ http:
       ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject-200
     - >-
       ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject-200
+    - >-
+      ^https?:\/\/www\.googleadservices\.com - reject-200
