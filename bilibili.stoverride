@@ -78,14 +78,6 @@ http:
       max-size: -1
       timeout: 60
 
-# ～ BiliBili_哔哩哔哩_1080P高码率+4K画质[番剧和影视除外]@ddgksf2013
-    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?
-      name: "bilibili_json_99"
-      type: response
-      require-body: true
-      max-size: -1
-      timeout: 60
-
 # ～ BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
     - match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed
       name: "bilibili_json_99"
@@ -168,23 +160,6 @@ http:
       require-body: true
       max-size: -1
       binary-mode: true
-      timeout: 60
-
-# ～ BiliBili_哔哩哔哩_动态综合页及视频页去广告@BiliUniverse
-    - match: ^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/Dyn(All|Video)$
-      name: "bilibili_proto_beta_143"
-      type: response
-      require-body: true
-      max-size: -1
-      binary-mode: true
-      timeout: 60
-      
-# ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
-    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine
-      name: "bilibili_json_99"
-      type: response
-      require-body: true
-      max-size: -1
       timeout: 60
 
 script-providers:
