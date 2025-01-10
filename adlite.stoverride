@@ -376,6 +376,7 @@ http:
     - "spclient.wg.spotify.com"
     - "m.ctrip.com"
     - "api-access.pangolin-sdk-toutiao.com"
+    - "api-access.pangolin-sdk-toutiao1.com"
     - "p3-ad-sign.byteimg.com"
     - "p6-ad-sign.byteimg.com"
     - "p9-ad-sign.byteimg.com"
@@ -385,6 +386,7 @@ http:
     - "lf-sourcecdn-tos.bytegecko.com"
     - "mon.zijieapi.com"
     - "gromore.pangolin-sdk-toutiao.com"
+    - "wcp.taobao.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -920,7 +922,7 @@ http:
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.discover\/ - reject-dict
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ - reject-dict
     - ^https:\/\/img3\.doubanio\.com\/favicon\.ico$ - reject-img
-    - ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union - reject-200
+    - ^https:\/\/api-access\.pangolin-sdk-toutiao[0-9]{1}\.com\/api\/ad\/union - reject-200
     - ^https:\/\/p[0-9]{1}-ad-sign\.byteimg\.com - reject-200
     - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject-200
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
@@ -928,6 +930,7 @@ http:
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
     - ^https:\/\/mon\.zijieapi\.com - reject-200
     - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
+    - ^https:\/\/wcp\.taobao\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
