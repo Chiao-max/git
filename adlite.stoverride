@@ -379,6 +379,7 @@ http:
     - "p3-ad-sign.byteimg.com"
     - "p6-ad-sign.byteimg.com"
     - "p9-ad-sign.byteimg.com"
+    - "log-api.pangolin-sdk-toutiao-b.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
