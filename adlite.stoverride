@@ -942,7 +942,7 @@ http:
     - ^https:\/\/mssdk\.volces\.com - reject-200
     - ^https:\/\/v[0-9]{0,2}-default\.365yg\.com - reject-200
     - ^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com - reject-200
-    - ^https:\/\/im-x.jd.com - reject-200
+    - ^https:\/\/im-x\.jd\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
