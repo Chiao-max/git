@@ -380,6 +380,10 @@ http:
     - "p6-ad-sign.byteimg.com"
     - "p9-ad-sign.byteimg.com"
     - "log-api.pangolin-sdk-toutiao-b.com"
+    - "ef-dongfeng.tanx.com"
+    - "api-sinfonlinec.retouchpics.com"
+    - "lf-sourcecdn-tos.bytegecko.com"
+    - "mon.zijieapi.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
