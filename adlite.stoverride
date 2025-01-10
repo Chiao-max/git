@@ -384,6 +384,7 @@ http:
     - "api-sinfonlinec.retouchpics.com"
     - "lf-sourcecdn-tos.bytegecko.com"
     - "mon.zijieapi.com"
+    - "gromore.pangolin-sdk-toutiao.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -926,6 +927,7 @@ http:
     - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
     - ^https:\/\/mon\.zijieapi\.com - reject-200
+    - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
