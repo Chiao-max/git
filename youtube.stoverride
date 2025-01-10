@@ -13,6 +13,8 @@ http:
     - "s.youtube.com"
     - "youtubei.googleapis.com"
     - "www.googleadservices.com"
+    - "www.gstatic.com"
+    
   url-rewrite:
 # ======= 视频广告请求 ======= #
     - >-
