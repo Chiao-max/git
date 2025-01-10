@@ -921,6 +921,14 @@ http:
     - ^https:\/\/img3\.doubanio\.com\/favicon\.ico$ - reject-img
     - ^https:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union - reject-200
     - ^https:\/\/p[0-9]{1}-ad-sign\.byteimg\.com - reject-200
+    - ^https:\/\/p3-ad-sign\.byteimg\.com - reject-200
+    - ^https:\/\/p6-ad-sign\.byteimg\.com - reject-200
+    - ^https:\/\/p9-ad-sign\.byteimg\.com - reject-200
+    - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject-200
+    - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
+    - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
+    - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
+    - ^https:\/\/mon\.zijieapi\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
