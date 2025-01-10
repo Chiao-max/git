@@ -387,6 +387,8 @@ http:
     - "mon.zijieapi.com"
     - "gromore.pangolin-sdk-toutiao.com"
     - "wcp.taobao.com"
+    - "agoo-report.m.taobao.com"
+    - "mssdk.m.volces.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -931,6 +933,8 @@ http:
     - ^https:\/\/mon\.zijieapi\.com - reject-200
     - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
     - ^https:\/\/wcp\.taobao\.com - reject-200
+    - ^https:\/\/agoo-report\.m\.taobao.com - reject-200
+    - ^https:\/\/mssdk\.volces\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
