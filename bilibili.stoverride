@@ -78,22 +78,6 @@ http:
       max-size: -1
       timeout: 60
 
-# ～ BiliBili_哔哩哔哩_屏蔽直播页顶部轮播图@ddgksf2013
-    - match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed
-      name: "bilibili_json_99"
-      type: response
-      require-body: true
-      max-size: -1
-      timeout: 60
-
-# ～ BiliBili_哔哩哔哩_推荐去广告@ddgksf2013
-    - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index
-      name: "bilibili_json_99"
-      type: response
-      require-body: true
-      max-size: -1
-      timeout: 60
-
 # ～ BiliBili_哔哩哔哩_追番去广告@ddgksf2013
     - match: ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi
       name: "bilibili_json_99"
