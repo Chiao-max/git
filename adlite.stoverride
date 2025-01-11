@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告
+  app去广告v0.1
 icon: |-
   https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 
@@ -379,7 +379,6 @@ http:
     - "api-access.pangolin-sdk-toutiao1.com"
     - "*.byteimg.com"
     - "log-api.pangolin-sdk-toutiao-b.com"
-    - "log-api.pangolin-sdk-toutiao.com"
     - "api-sinfonlinec.retouchpics.com"
     - "lf-sourcecdn-tos.bytegecko.com"
     - "*.zijieapi.com"
@@ -934,7 +933,6 @@ http:
     - ^https:\/\/api-access\.pangolin-sdk-toutiao[0-9]{1}\.com\/api\/ad\/union - reject-200
     - ^https:\/\/p[0-9]{1}-ad-sign\.byteimg\.com - reject-200
     - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject-200
-    - ^https:\/\/log-api\.pangolin-sdk-toutiao\.com - reject-200
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
