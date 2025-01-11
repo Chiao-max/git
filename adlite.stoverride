@@ -389,6 +389,7 @@ http:
     - "im-x.jd.com"
     - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
+    - "ip.taobao.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
