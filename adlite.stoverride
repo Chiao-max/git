@@ -939,7 +939,6 @@ http:
     - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
     - ^https:\/\/mon\.zijieapi\.com - reject-200
-    - ^https:\/\/tnc3-alisc1\.zijieapi\.com - reject-200
     - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
     - ^https:\/\/wcp\.taobao\.com - reject-200
     - ^https:\/\/agoo-report\.m\.taobao.com - reject-200
@@ -951,7 +950,6 @@ http:
     - ^https:\/\/df\.tanx\.com - reject-200
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
-    - ^https:\/\/lf-cdn-tos\.bytescm\.com - reject-200
     - ^https:\/\/lv-api-lf\.ulikecam\.com - reject-200
     - ^https:\/\/sinfonlinec\.ulikecam\.com - reject-200
     - ^https:\/\/api3.faceu.mobi - reject-200
