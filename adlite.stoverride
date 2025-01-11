@@ -1,4 +1,3 @@
-
 name: |-
   adblocker
 desc: |-
@@ -376,6 +375,8 @@ http:
     - "goblin.hupu.com"
     - "spclient.wg.spotify.com"
     - "m.ctrip.com"
+    - "api-access.pangolin-sdk-toutiao.com"
+    - "api-access.pangolin-sdk-toutiao1.com"
     - "log-api.pangolin-sdk-toutiao-b.com"
     - "log-api.pangolin-sdk-toutiao.com"
     - "lf-sourcecdn-tos.bytegecko.com"
@@ -385,12 +386,11 @@ http:
     - "agoo-report.m.taobao.com"
     - "mssdk.m.volces.com"
     - "*.365yg.com"
+    - "sf3-fe-tos.pglstatp-toutiao.com"
     - "im-x.jd.com"
     - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
     - "dig.bdurl.net"
-    - "api-access.pangolin-sdk-toutiao.com"
-    - "api-access.pangolin-sdk-toutiao1.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -926,10 +926,12 @@ http:
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.discover\/ - reject-dict
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ - reject-dict
     - ^https:\/\/img3\.doubanio\.com\/favicon\.ico$ - reject-img
+    - ^https:\/\/api-access\.pangolin-sdk-toutiao[0-9]{1}\.com\/api\/ad\/union - reject-200
     - ^https:\/\/p[0-9]{1}-ad-sign\.byteimg\.com - reject-200
     - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject-200
     - ^https:\/\/log-api\.pangolin-sdk-toutiao\.com - reject-200
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
+    - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
     - ^https:\/\/mon\.zijieapi\.com - reject-200
     - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
@@ -937,12 +939,12 @@ http:
     - ^https:\/\/agoo-report\.m\.taobao.com - reject-200
     - ^https:\/\/mssdk\.volces\.com - reject-200
     - ^https:\/\/v[0-9]{0,2}-default\.365yg\.com - reject-200
+    - ^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com - reject-200
     - ^https:\/\/im-x\.jd\.com - reject-200
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/df\.tanx\.com - reject-200
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
-    - ^https:\/\/api-access\.pangolin-sdk-toutiao[0-9]{1}\.com\/api\/ad\/union - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
