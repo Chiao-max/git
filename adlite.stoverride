@@ -394,7 +394,7 @@ http:
     - "adstrategy.biz.weibo.com"
     - "dig.bdurl.net"
     - "lf-cdn-tos.bytescm.com"
-    - "lv-api-lf.ulikecam.com"
+    - "*.ulikecam.com"
     - "api3.faceu.mobi"
     - "open.douyin.com"
   script:
@@ -954,6 +954,7 @@ http:
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/lf-cdn-tos\.bytescm\.com - reject-200
     - ^https:\/\/lv-api-lf\.ulikecam\.com - reject-200
+    - ^https:\/\/sinfonlinec\.ulikecam\.com - reject-200
     - ^https:\/\/api3.faceu.mobi - reject-200
     - ^https:\/\/open.douyin.com - reject-200
 script-providers:
