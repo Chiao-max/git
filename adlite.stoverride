@@ -940,6 +940,7 @@ http:
     - ^https:\/\/df\.tanx\.com - reject-200
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
+    - ^https:\/\/api-access\.pangolin-sdk-toutiao[0-9]{1}\.com\/api\/ad\/union - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
