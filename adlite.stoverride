@@ -950,7 +950,7 @@ http:
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/df\.tanx\.com - reject-200
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
-    - ^https:\/\/dig.bdurl.net - reject-200
+    - ^https:\/\/dig\.bdurl\.net - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
