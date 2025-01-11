@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告v0.2
+  app去广告v0.3
 icon: |-
   https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 
@@ -377,12 +377,9 @@ http:
     - "m.ctrip.com"
     - "api-access.pangolin-sdk-toutiao.com"
     - "api-access.pangolin-sdk-toutiao1.com"
-    - "p3-ad-sign.byteimg.com"
-    - "p6-ad-sign.byteimg.com"
-    - "p9-ad-sign.byteimg.com"
+    - "*.byteimg.com"
     - "log-api.pangolin-sdk-toutiao-b.com"
     - "log-api.pangolin-sdk-toutiao.com"
-    - "ef-dongfeng.tanx.com"
     - "api-sinfonlinec.retouchpics.com"
     - "lf-sourcecdn-tos.bytegecko.com"
     - "*.zijieapi.com"
@@ -393,12 +390,13 @@ http:
     - "*.365yg.com"
     - "sf3-fe-tos.pglstatp-toutiao.com"
     - "im-x.jd.com"
-    - "ef-dongfeng.tanx.com"
-    - "df.tanx.com"
+    - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
     - "dig.bdurl.net"
     - "lf-cdn-tos.bytescm.com"
     - "lv-api-lf.ulikecam.com"
+    - "api3.faceu.mobi"
+    - "open.douyin.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -956,6 +954,8 @@ http:
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/lf-cdn-tos\.bytescm\.com - reject-200
     - ^https:\/\/lv-api-lf\.ulikecam\.com - reject-200
+    - ^https:\/\/api3.faceu.mobi - reject-200
+    - ^https:\/\/open.douyin.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
