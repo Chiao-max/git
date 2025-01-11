@@ -376,7 +376,6 @@ http:
     - "goblin.hupu.com"
     - "spclient.wg.spotify.com"
     - "m.ctrip.com"
-    - "*.byteimg.com"
     - "log-api.pangolin-sdk-toutiao-b.com"
     - "log-api.pangolin-sdk-toutiao.com"
     - "lf-sourcecdn-tos.bytegecko.com"
