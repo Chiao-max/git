@@ -379,7 +379,6 @@ http:
     - "*.byteimg.com"
     - "log-api.pangolin-sdk-toutiao-b.com"
     - "log-api.pangolin-sdk-toutiao.com"
-    - "api-sinfonlinec.retouchpics.com"
     - "lf-sourcecdn-tos.bytegecko.com"
     - "mon.zijieapi.com"
     - "gromore.pangolin-sdk-toutiao.com"
@@ -930,7 +929,6 @@ http:
     - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject-200
     - ^https:\/\/log-api\.pangolin-sdk-toutiao\.com - reject-200
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
-    - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
     - ^https:\/\/mon\.zijieapi\.com - reject-200
     - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
