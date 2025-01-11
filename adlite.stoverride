@@ -383,7 +383,7 @@ http:
     - "log-api.pangolin-sdk-toutiao.com"
     - "api-sinfonlinec.retouchpics.com"
     - "lf-sourcecdn-tos.bytegecko.com"
-    - "*.zijieapi.com"
+    - "mon.zijieapi.com"
     - "gromore.pangolin-sdk-toutiao.com"
     - "wcp.taobao.com"
     - "agoo-report.m.taobao.com"
