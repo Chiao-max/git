@@ -633,8 +633,8 @@ http:
     - ^https?:\/\/api\.futunn\.com\/(v\d\/)?ad\/ - reject-200
     - ^https:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject-200
     - ^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ - reject-200
-    - https://zone.guiderank-app.com/guiderank-web/app/ad/listLaunchADByCity.do - reject-200
-    - https://guanyu.longfor.com/app-server/api/v1/main/start - reject-200
+    - https:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do - reject-200
+    - https:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start - reject-200
     - ^https?:\/\/gha\.ghac\.cn\:8081\/base\/app\/api\/ad\/query\?adType - reject-200
     - ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad - reject-200
     - ^https?:\/\/wap\.ngchina\.cn\/news\/adverts - reject-200
@@ -646,7 +646,7 @@ http:
     - ^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor - reject-img
     - ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther - reject-200
     - ^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4} - reject-img
-    - https://fbchina.flipchina.cn/v2/ad/query/* - reject-200
+    - https:\/\/fbchina\.flipchina\.cn\/v2\/ad\/query\/* - reject-200
     - ^https?:\/\/business\.msstatic\.com\/advertiser\/material - reject-200
     - ^https?:\/\/app3\.qdaily\.com\/app\d\/boot_advertisements\.json - reject-200
     - ^https:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo - reject-200
@@ -683,12 +683,12 @@ http:
     - ^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf) - reject-200
     - ^https?:\/\/api\.smart\.jd\.com\/c\/service\/getLoadingLinks - reject-200
     - ^https?:\/\/res.kfc.com.cn\/advertisement\/ - reject-200
-    - https://dynamicad.kfc.com.cn/api/app5/homepage/ai/popup - reject-200
+    - https:\/\/dynamicad\.kfc\.com\.cn\/api\/app5\/homepage\/ai\/popup - reject-200
     - ^https?:\/\/api.kkmh.com\/v\d\/(ad|advertisement)\/ - reject-200
     - ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch - reject-dict
     - ^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement - reject
-    - https://open3.vistastory.com/v3/api/index/loading_ad - reject-200
-    - https://open3.vistastory.com/v3/api.*get_popup - reject-200
+    - https:\/\/open3\.vistastory\.com\/v3\/api\/index\/loading_ad - reject-200
+    - https:\/\/open3\.vistastory\.com\/v3\/api.*get_popup - reject-200
     - ^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ - reject-200
     - ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window - reject-200
     - ^https?:\/\/hc-ssp\.sm\.cn - reject-200
@@ -698,8 +698,8 @@ http:
     - ^https?:\/\/api\.kurobbs\.com\/config\/getOpenScreen - reject-200
     - ^https?:\/\/api\.00bang\.cn\/llb\/baseinfo\/advertise\/getAdvertiseByPageCode - reject-200
     - ^https?:\/\/api\.internetofcity\.cn\/api\/resource\/anon\/popups\/(getSplashList|getList) - reject-200
-    - https://dl-cu-hz.lechange.cn/oms-online/advertisementPush/* - reject-200
-    - https://tagit.hyhuo.com/recover/list - reject-200
+    - https:\/\/dl-cu-hz.lechange\.cn\/oms-online\/advertisementPush\/* - reject-200
+    - https:\/\/tagit\.hyhuo\.com\/recover\/list - reject-200
     - ^https?:\/\/(mobile|shop)\.laichon\.com\/api\/(v1\/goods\/goodsList|exposureAdvStatistics|getWebAdvList) - reject-200
     - https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject-200
     - ^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action - reject-200
@@ -720,7 +720,7 @@ http:
     - ^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) - reject-200
     - ^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time - reject-200
     - ^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad - reject-200
-    - ^https://mapi.mafengwo.cn\/ad\/get_launch_ad_list\/v2 - reject-200
+    - ^https:\/\/mapi\.mafengwo\.cn\/ad\/get_launch_ad_list\/v2 - reject-200
     - ^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert - reject-200
     - ^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/public\/(getStartUpMessage|getStartPageAds|getShelfActivity) - reject-200
     - ^https?:\/\/.*mangaapi\.manhuaren\.\w{2,4}\/v\d\/ad - reject-200
@@ -751,7 +751,7 @@ http:
     - ^https?:\/\/slapi\.oray\.net\/adver - reject-200
     - ^https?:\/\/api\.21ec74\.com\/v2\.5\/ad - reject-200
     - ^https?:\/\/careapi\.oclean\.com\/mall\/v\d\/Temporary\/SafetyGetStartAdvert - reject-200
-    - https://access.mypikpak.com/access_controller/v1/area_accessible - reject-200
+    - https:\/\/access\.mypikpak\.com\/access_controller\/v1\/area_accessible - reject-200
     - ^https?:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash - reject-200
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject-200
     - ^https?:\/\/adpai\.thepaper\.cn\/.+&ad= - reject-200
@@ -761,7 +761,7 @@ http:
     - ^https?:\/\/www\.pansearch\.me\/api\/adsite - reject-dict
     - ^https?:\/\/m\.stock\.pingan\.com\/restapi\/rmd\/open\/O\/api\/openAd - reject-200
     - ^https:\/\/us\.l\.qq\.com\/exapp\?spsa=\d - reject-200
-    - https://homefront.qunar.com/front/splash/ad - reject-200
+    - https:\/\/homefront\.qunar\.com\/front\/splash/ad - reject-200
     - ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd - reject-200
     - ^https?:\/\/adproxy.autohome.com.cn\/AdvertiseService\/ - reject-200
     - ^https?:\/\/app2.autoimg.cn\/appdfs\/ - reject-200
@@ -776,13 +776,13 @@ http:
     - ^https?:\/\/stat\.peopleapp\.com\/ - reject-200
     - ^https?:\/\/.*dcloud\.net\.cn\/(app\/acs|uad) - reject-200
     - ^https?:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/(homePage\/contactor\/modules|app\/adposNew) - reject-200
-    - https://ios.sspai.com/api/v3/recommend/page/get\?ad.*ios_home_modal - reject-200
-    - ^https://mapi.sfbest.com\/brokerservice-server\/cms\/getPositionById.* - reject-200
+    - https:\/\/ios\.sspai.com\/api\/v3\/recommend\/page\/get\?ad.*ios_home_modal - reject-200
+    - ^https:\/\/mapi\.sfbest\.com\/brokerservice-server\/cms\/getPositionById.* - reject-200
     - ^https?://spclient.wg.spotify.com/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) - reject-img
     - ^https?:\/\/api\d?\.musical\.ly\/api\/ad\/ - reject-img
-    - https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig - reject-200
+    - https:\/\/apis\.lifeweek\.com\.cn\/api\/baseConfig\/getIosNewConfig - reject-200
     - ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/appVersion\/detectionUpgrade - reject-200
-    - https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages - reject-200
+    - https:\/\/ccsp-egmas\.sf-express.com\/cx-app-base\/base\/app\/ad\/queryAdImages - reject-200
     - ^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen - reject-200
     - ^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report$ - reject-200
     - ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject-200
@@ -798,11 +798,11 @@ http:
     - ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ - reject-200
     - ^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners - reject-200
     - ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig - reject-200
-    - ^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* - reject-200
+    - ^https:\/\/otheve\.beacon\.qq\.com\/analytics\/upload\?sid=.* - reject-200
     - ^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ - reject-200
     - ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise\/ - reject-200
     - ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg - reject-200
-    - https://top-widgets-api.xiaozujian.com/api/ad/config - reject-200
+    - https:\/\/top-widgets-api\.xiaozujian\.com\/api\/ad\/config - reject-200
     - ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject-200
     - ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject-200
     - ^https?:\/\/mrobot\.pconline\.com\.cn\/s-900\/onlineinfo\/cms\/launch - reject-200
@@ -815,13 +815,13 @@ http:
     - ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.fc\.resource\.tacdata\.get - reject-200
     - ^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg - reject-200
     - ^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get - reject-200
-    - https://b.appsimg.com/upload/momin/ - reject
-    - https://mapi.appvipshop.com/vips-mobile/rest/activity/advertisement/get - reject-200
+    - https:\/\/b\.appsimg\.com\/upload\/momin - reject
+    - https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get - reject-200
     - ^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report - reject-200
     - ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject-200
     - ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do - reject-200
     - ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) - reject-200
-    - https://support.you.163.com/appversync/check.do - reject-200
+    - https:\/\/support\.you\.163.com\/appversync\/check\.do - reject-200
     - ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject-200
     - ^https?:\/\/m\.you\.163\.com\/activity\/popWindow - reject-200
     - ^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4 - reject-200
@@ -841,8 +841,8 @@ http:
     - ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject-200
     - ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare - reject-200
     - ^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS - reject-200
-    - ^https://api.xiaoyi.com\/v5\/app\/mobile\/ads - reject-200
-    - ^https://api.xiaoyi.com\/v5\/app\/config\?userid=.* - reject-200
+    - ^https:\/\/api\.xiaoyi\.com\/v5\/app\/mobile\/ads - reject-200
+    - ^https:\/\/api\.xiaoyi\.com\/v5\/app\/config\?userid=.* - reject-200
     - ^https:\/\/api\.xiachufang\.com\/v\d\/ad/ - reject-200
     - ^https?:\/\/mpos-pic\.helipay\.com\/upload\/images\/advertisment - reject-200
     - ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start - reject-200
@@ -868,7 +868,7 @@ http:
     - ^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig - reject-200
     - ^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd - reject-200
     - ^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage - reject-200
-    - https://new-app-api.ylyk.com/v1/user/myinfo/adviser - reject-200
+    - https:\/\/new-app-api\.ylyk\.com\/v1\/user\/myinfo\/adviser - reject-200
     - ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject-200
     - ^https?:\/\/app\.yinxiang\.com\/ads\/ - reject-200
     - ^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd - reject-200
