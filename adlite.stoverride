@@ -389,6 +389,7 @@ http:
     - "im-x.jd.com"
     - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
+    - "ad.tencentmusic.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -944,7 +945,6 @@ http:
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/ip\.taobao\.com - reject-200
-    - ^https:\/\/ad\.tencentmusic\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
