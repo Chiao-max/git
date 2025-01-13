@@ -399,6 +399,7 @@ http:
     - "p.l.qq.com"
     - "mazu.m.qq.com"
     - "ios.bugly.qq.com"
+    - "gateway.kugou.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -965,6 +966,15 @@ http:
     - ^https?:\/\/p\.l\.qq\.com - reject-200
     - ^https?:\/\/mazu.m.qq.com - reject-200
     - ^https?:\/\/ios\.bugly\.qq\.com - reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad reject-200
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
