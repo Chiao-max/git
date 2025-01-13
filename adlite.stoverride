@@ -975,6 +975,7 @@ http:
     - ^https:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment - reject-200
     - ^https:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad - reject-200
     - ^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner - reject-200
+    - ^https:\/\/us\.l\.qq\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
