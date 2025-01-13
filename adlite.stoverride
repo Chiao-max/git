@@ -400,7 +400,6 @@ http:
     - "mazu.m.qq.com"
     - "ios.bugly.qq.com"
     - "gateway.kugou.com"
-    - "report.tencentmusic.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -964,7 +963,7 @@ http:
     - ^https?:\/\/adsmind\.gdtimg\.com - reject
     - ^https?:\/\/pgdt\.gtimg\.cn - reject
     - ^https?:\/\/rpt\.gdt\.qq\.com - reject
-    - ^https?:\/\/p\.l\.qq\.com - reject
+    - ^https?:\/\/p|us\.l\.qq\.com - reject
     - ^https?:\/\/mazu.m.qq.com - reject
     - ^https?:\/\/ios\.bugly\.qq\.com - reject
     - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ - reject-dict
@@ -976,8 +975,6 @@ http:
     - ^https:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment - reject-dict
     - ^https:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad - reject-dict
     - ^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner - reject-dict
-    - ^https:\/\/us\.l\.qq\.com - reject
-    - ^https:\/\/report\.tencentmusic\.com - reject
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
