@@ -389,6 +389,9 @@ http:
     - "im-x.jd.com"
     - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
+    - "*.zijieapi.com"
+    - "dig.bdurl.net"
+    - "lf-cdn-tos.bytescm.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -943,6 +946,8 @@ http:
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/ip\.taobao\.com - reject-200
+    - ^https?:\/\/tnc3-aliec[0-9]{1}\.zijieapi\.com - reject-200
+    - ^https?:\/\/lf-cdn-tos\.bytescm\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
