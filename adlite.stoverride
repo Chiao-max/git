@@ -392,7 +392,7 @@ http:
     - "ad.tencentmusic.com"
     - "*.e.qq.com"
     - "ca.iadsdk.apple.com"
-    - "adservices.apple.com"
+    - "api-adservices.apple.com"
     - "adsmind.gdtimg.com"
     - "pgdt.gtimg.com"
   script:
@@ -954,7 +954,7 @@ http:
     - ^https?:\/\/sdkreport\.e\.qq\.com - reject-200
     - ^https?:\/\/ca\.iadsdk\.apple\.com - reject-200
     - ^https?:\/\/tangram\.e\.qq\.com - reject-200
-    - ^https?:\/\/adservices\.apple\.com - reject-200
+    - ^https?:\/\/api-adservices\.apple\.com - reject-200
     - ^https?:\/\/adsmind\.gdtimg\.com - reject-200
     - ^https?:\/\/pgdt\.gtimg\.com - reject-200
 script-providers:
