@@ -955,27 +955,27 @@ http:
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/ip\.taobao\.com - reject-200
-    - ^https?:\/\/ad\.tencentmusic\.com - reject-200
-    - ^https?:\/\/sdkreport\.e\.qq\.com - reject-200
-    - ^https?:\/\/ca\.iadsdk\.apple\.com - reject-200
-    - ^https?:\/\/tangram\.e\.qq\.com - reject-200
-    - ^https?:\/\/api-adservices\.apple\.com - reject-200
-    - ^https?:\/\/adsmind\.gdtimg\.com - reject-200
-    - ^https?:\/\/pgdt\.gtimg\.cn - reject-200
-    - ^https?:\/\/rpt\.gdt\.qq\.com - reject-200
-    - ^https?:\/\/p\.l\.qq\.com - reject-200
-    - ^https?:\/\/mazu.m.qq.com - reject-200
-    - ^https?:\/\/ios\.bugly\.qq\.com - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad - reject-200
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner - reject-200
-    - ^https:\/\/us\.l\.qq\.com - reject-200
+    - ^https?:\/\/ad\.tencentmusic\.com - reject
+    - ^https?:\/\/sdkreport\.e\.qq\.com - reject
+    - ^https?:\/\/ca\.iadsdk\.apple\.com - reject
+    - ^https?:\/\/tangram\.e\.qq\.com - reject
+    - ^https?:\/\/api-adservices\.apple\.com - reject
+    - ^https?:\/\/adsmind\.gdtimg\.com - reject
+    - ^https?:\/\/pgdt\.gtimg\.cn - reject
+    - ^https?:\/\/rpt\.gdt\.qq\.com - reject
+    - ^https?:\/\/p\.l\.qq\.com - reject
+    - ^https?:\/\/mazu.m.qq.com - reject
+    - ^https?:\/\/ios\.bugly\.qq\.com - reject
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad - reject-dict
+    - ^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner - reject-dict
+    - ^https:\/\/us\.l\.qq\.com - reject
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
