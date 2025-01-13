@@ -389,17 +389,6 @@ http:
     - "im-x.jd.com"
     - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
-    - "ad.tencentmusic.com"
-    - "*.e.qq.com"
-    - "ca.iadsdk.apple.com"
-    - "api-adservices.apple.com"
-    - "adsmind.gdtimg.com"
-    - "pgdt.gtimg.cn"
-    - "rpt.gdt.qq.com"
-    - "p.l.qq.com"
-    - "mazu.m.qq.com"
-    - "ios.bugly.qq.com"
-    - "gateway.kugou.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -942,7 +931,6 @@ http:
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
-    - ^https:\/\/mon\.zijieapi\.com - reject-200
     - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
     - ^https:\/\/wcp\.taobao\.com - reject-200
     - ^https:\/\/agoo-report\.m\.taobao.com - reject-200
@@ -955,26 +943,6 @@ http:
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/ip\.taobao\.com - reject-200
-    - ^https?:\/\/ad\.tencentmusic\.com - reject
-    - ^https?:\/\/sdkreport\.e\.qq\.com - reject
-    - ^https?:\/\/ca\.iadsdk\.apple\.com - reject
-    - ^https?:\/\/tangram\.e\.qq\.com - reject
-    - ^https?:\/\/api-adservices\.apple\.com - reject
-    - ^https?:\/\/adsmind\.gdtimg\.com - reject
-    - ^https?:\/\/pgdt\.gtimg\.cn - reject
-    - ^https?:\/\/rpt\.gdt\.qq\.com - reject
-    - ^https?:\/\/p|us\.l\.qq\.com - reject
-    - ^https?:\/\/mazu.m.qq.com - reject
-    - ^https?:\/\/ios\.bugly\.qq\.com - reject
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/ad\/ - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/ads\.gateway\/ - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/v\d\/feeds\/follow_feed_fallback - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/mstc\/musicsymbol\/v\d\/system\/profile - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/searchnofocus\/v\d\/search_no_focus_word - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/adp\/bubble\/v\d\/song_play - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/singerdiscuss\/v\d\/entrance\/comment - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/r\/v\d\/general\/putin\/midad - reject-dict
-    - ^https:\/\/gateway(retry)?\.kugou\.com\/ocean\/v\d\/sound\/banner - reject-dict
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
