@@ -946,7 +946,7 @@ http:
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/ip\.taobao\.com - reject-200
-    - ^https?:\/\/tnc3-aliec[0-9]{1}\.zijieapi\.com - reject-200
+    - ^https?:\/\/tnc3-alisc[0-9]{1}\.zijieapi\.com - reject-200
     - ^https?:\/\/lf-cdn-tos\.bytescm\.com - reject-200
 script-providers:
   adblockerlite1:
