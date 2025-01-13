@@ -398,6 +398,7 @@ http:
     - "rpt.gdt.qq.com"
     - "p.l.qq.com"
     - "mazu.m.qq.com"
+    - "ios.bugly.qq.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -963,6 +964,7 @@ http:
     - ^https?:\/\/rpt\.gdt\.qq\.com - reject-200
     - ^https?:\/\/p\.l\.qq\.com - reject-200
     - ^https?:\/\/mazu.m.qq.com - reject-200
+    - ^https?:\/\/ios\.bugly\.qq\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
