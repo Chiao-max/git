@@ -392,6 +392,7 @@ http:
     - "*.zijieapi.com"
     - "dig.bdurl.net"
     - "lf-cdn-tos.bytescm.com"
+    - "img3.doubanio.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
