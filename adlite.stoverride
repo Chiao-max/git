@@ -929,8 +929,8 @@ http:
     - ^https:\/\/img3\.doubanio\.com\/favicon\.ico$ - reject-img
     - ^https:\/\/api-access\.pangolin-sdk-toutiao[0-9]{0,1}\.com\/api\/ad\/union - reject-200
     - ^https:\/\/p[0-9]{1}-ad-sign\.byteimg\.com - reject-200
-    - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject-200
-    - ^https:\/\/log-api\.pangolin-sdk-toutiao\.com - reject-200
+    - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject
+    - ^https:\/\/log-api\.pangolin-sdk-toutiao\.com - reject
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
