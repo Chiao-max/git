@@ -393,6 +393,7 @@ http:
     - "*.e.qq.com"
     - "ca.iadsdk.apple.com"
     - "adservices.apple.com"
+    - "adsmind.gdtimg.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -953,6 +954,7 @@ http:
     - ^https?:\/\/ca\.iadsdk\.apple\.com - reject-200
     - ^https?:\/\/tangram\.e\.qq\.com - reject-200
     - ^https?:\/\/adservices\.apple\.com - reject-200
+    - ^https?:\/\/adsmind\.gdtimg\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
