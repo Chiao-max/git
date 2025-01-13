@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告
+  app去广告v0.1
 icon: |-
   https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 
@@ -390,6 +390,7 @@ http:
     - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
     - "ad.tencentmusic.com"
+    - "sdkreport.e.qq.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -946,6 +947,7 @@ http:
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/ip\.taobao\.com - reject-200
     - ^https?:\/\/ad\.tencentmusic\.com - reject-200
+    - ^https?:\/\/sdkreport\.e\.qq\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
