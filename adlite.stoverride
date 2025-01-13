@@ -944,6 +944,7 @@ http:
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
     - ^https:\/\/dig\.bdurl\.net - reject-200
     - ^https:\/\/ip\.taobao\.com - reject-200
+    - ^https:\/\/ad\.tencentmusic\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
