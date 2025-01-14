@@ -389,6 +389,7 @@ http:
     - "*.zijieapi.com"
     - "dig.bdurl.net"
     - "lf-cdn-tos.bytescm.com"
+    - "zlink.ugsdk.cn"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -940,6 +941,7 @@ http:
     - ^https:\/\/ip\.taobao\.com - reject-200
     - ^https?:\/\/tnc3-alisc[0-9]{1}\.zijieapi\.com - reject-200
     - ^https?:\/\/lf-cdn-tos\.bytescm\.com - reject-200
+    - ^https?:\/\/zlink\.ugsdk\.cn - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
