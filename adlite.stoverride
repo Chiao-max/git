@@ -391,6 +391,7 @@ http:
     - "lf-cdn-tos.bytescm.com"
     - "zlink.ugsdk.cn"
     - "adsmind.ugdtimg.com"
+    - "mssdk.volces.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -944,6 +945,7 @@ http:
     - ^https?:\/\/lf-cdn-tos\.bytescm\.com - reject-200
     - ^https?:\/\/zlink\.ugsdk\.cn - reject-200
     - ^https?:\/\/adsmind\.ugdtimg\.com - reject-200
+    - ^https?:\/\/mssdk\.volces\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
