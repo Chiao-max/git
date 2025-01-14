@@ -383,7 +383,7 @@ http:
     - "gromore.pangolin-sdk-toutiao.com"
     - "wcp.taobao.com"
     - "agoo-report.m.taobao.com"
-    - "mssdk.m.volces.com"
+    - "mssdk.volces.com"
     - "*.365yg.com"
     - "sf3-fe-tos.pglstatp-toutiao.com"
     - "im-x.jd.com"
@@ -392,7 +392,7 @@ http:
     - "*.zijieapi.com"
     - "dig.bdurl.net"
     - "lf-cdn-tos.bytescm.com"
-    - "log5-hl.qishui.com"
+    - "*.qishui.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -948,6 +948,7 @@ http:
     - ^https:\/\/ip\.taobao\.com - reject-200
     - ^https?:\/\/tnc3-alisc[0-9]{1}\.zijieapi\.com - reject-200
     - ^https?:\/\/lf-cdn-tos\.bytescm\.com - reject-200
+    - ^https?:\/\/log5-hl\.qishui\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
