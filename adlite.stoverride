@@ -927,19 +927,18 @@ http:
     - ^https?:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject-dict
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.discover\/ - reject-dict
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ - reject-dict
-    - ^https:\/\/api-access\.pangolin-sdk-toutiao[0-9]{0,1}\.com\/api\/ad\/union - reject-200
+    - ^https:\/\/.*\.pangolin-sdk-toutiao[0-9]{0,1}\.com\/api\/ad\/union - reject-200
     - ^https:\/\/p[0-9]{1}-ad-sign\.byteimg\.com - reject-200
     - ^https:\/\/log-api\.pangolin-sdk-toutiao-b\.com - reject
     - ^https:\/\/log-api\.pangolin-sdk-toutiao\.com - reject
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/api-sinfonlinec\.retouchpics\.com - reject-200
     - ^https:\/\/lf-sourcecdn-tos\.bytegecko\.com - reject-200
-    - ^https:\/\/gromore\.pangolin-sdk-toutiao\.com - reject-200
     - ^https:\/\/wcp\.taobao\.com - reject-200
     - ^https:\/\/agoo-report\.m\.taobao.com - reject-200
     - ^https:\/\/mssdk\.volces\.com - reject-200
     - ^https:\/\/v[0-9]{0,2}-default\.365yg\.com - reject-200
-    - ^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com - reject-200
+    - ^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern - reject-200
     - ^https:\/\/im-x\.jd\.com - reject-200
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/df\.tanx\.com - reject-200
