@@ -383,7 +383,6 @@ http:
     - "agoo-report.m.taobao.com"
     - "*.365yg.com"
     - "sf3-fe-tos.pglstatp-toutiao.com"
-    - "im-x.jd.com"
     - "*.tanx.com"
     - "adstrategy.biz.weibo.com"
     - "*.zijieapi.com"
@@ -935,7 +934,6 @@ http:
     - ^https:\/\/agoo-report\.m\.taobao.com - reject-200
     - ^https:\/\/v[0-9]{0,2}-default\.365yg\.com - reject-200
     - ^https:\/\/sf3-fe-tos\.pglstatp-toutiao\.com\/obj\/ad-pattern - reject-200
-    - ^https:\/\/im-x\.jd\.com - reject-200
     - ^https:\/\/ef-dongfeng\.tanx\.com - reject-200
     - ^https:\/\/df\.tanx\.com - reject-200
     - ^https:\/\/adstrategy\.biz\.weibo\.com - reject-200
