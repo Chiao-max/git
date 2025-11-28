@@ -1,6 +1,6 @@
-icon: https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 name: Wink
 desc: Wink解锁会员
+icon: https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 http:
   mitm:
     - "api-sub.meitu.com"
