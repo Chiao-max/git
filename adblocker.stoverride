@@ -4497,6 +4497,22 @@ http:
     - ^(http:\/\/www\.vgtime\.com\/app\/topic\/\d+\.jhtml\?.*?&close_ad=)false(&page=\d&sign=\w+&timestamp=\d+&font_size=\d$) $1true$2 302
     - (^https?://passport\.biliintl\.com/x/intl/passport-login/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$35&sim_code=51503$5 302
     - (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) $1&s_locale=zh-Hans_PH$6&sim_code=51503$8 302
+    - ^https:\/\/mssdk\.bytedance\.com - reject-200
+    - ^https:\/\/lftxali\.fancyapi\.com - reject-200
+    - ^https:\/\/vt\.bidex\.cn - reject-200
+    - ^https:\/\/ads-tracker\.yourongsj\.com - reject-200
+    - ^https:\/\/ads5-normal-hl\.zijieapi\.com - reject-200
+    - ^https:\/\/lf-res-3\.douyinstatic\.com - reject-200
+    - ^https:\/\/p4-lm\.adukwai\.com - reject-200
+    - ^https:\/\/imp\.voiceads\.cn - reject-200
+    - ^https:\/\/win\.gdt\.qq\.com - reject-200
+    - ^https:\/\/v2\.gdt\.qq\.com - reject-200
+    - ^https:\/\/vr\.gdt\.qq\.com - reject-200
+    - ^https:\/\/pgdt\.ugdtimg\.com - reject-200
+    - ^https:\/\/adx-track\.adn-plus\.com\.cn - reject-200
+    - ^https:\/\/ssp-track\.adn-plus\.com\.cn - reject-200
+    - ^https:\/\/im-x\.jd\.com - reject-200
+    - ^https:\/\/img1\.360buyimg\.com - reject-200
 script-providers:
   AdBlocker_1:
     url: https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
