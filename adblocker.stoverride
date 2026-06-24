@@ -570,6 +570,18 @@ http:
     - "zlsdk.1rtb.net"
     - "zone.guiderank-app.com"
     - "ztoread.ziroom.com"
+    - "mssdk.bytedance.com"
+    - "lftxali.fancyapi.com"
+    - "vt.bidex.cn"
+    - "ads-tracker.yourongsj.com"
+    - "ads5-normal-hl.zijieapi.com"
+    - "lf-res-3.douyinstatic.com"
+    - "p4-lm.adukwai.com"
+    - "imp.voiceads.cn"
+    - "pgdt.ugdtimg.com"
+    - "*-track.adn-plus.com.cn"
+    - "im-x.jd.com"
+    - "img1.360buyimg.com"
   script:
     - match: https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get
       name: AdBlocker_1
