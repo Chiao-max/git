@@ -395,6 +395,18 @@ http:
     - "lf-cdn-tos.bytescm.com"
     - "sf3-fe-tos.pglstatp-toutiao.com"
     - "api-access.pangolin-sdk-toutiao-b.com"
+    - "mssdk.bytedance.com"
+    - "lftxali.fancyapi.com"
+    - "vt.bidex.cn"
+    - "ads-tracker.yourongsj.com"
+    - "ads5-normal-hl.zijieapi.com"
+    - "lf-res-3.douyinstatic.com"
+    - "p4-lm.adukwai.com"
+    - "imp.voiceads.cn"
+    - "pgdt.ugdtimg.com"
+    - "*-track.adn-plus.com.cn"
+    - "im-x.jd.com"
+    - "img1.360buyimg.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
