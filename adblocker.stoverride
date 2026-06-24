@@ -403,7 +403,7 @@ http:
     - "media.qyer.com"
     - "member.alipan.com"
     - "mgw.mpaas.cn-hangzhou.aliyuncs.com"
-    - "mi.gdt.qq.com"
+    - "*.gdt.qq.com"
     - "mime.baidu.com"
     - "mix-api.camera360.com"
     - "mob.mddcloud.com.cn"
