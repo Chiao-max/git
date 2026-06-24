@@ -966,6 +966,22 @@ http:
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao1\.com\/api\/ad - reject-200
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad - reject-200
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/api\/ad - reject-200
+    - ^https:\/\/mssdk\.bytedance\.com - reject-200
+    - ^https:\/\/lftxali\.fancyapi\.com - reject-200
+    - ^https:\/\/vt\.bidex\.cn - reject-200
+    - ^https:\/\/ads-tracker\.yourongsj\.com - reject-200
+    - ^https:\/\/ads5-normal-hl\.zijieapi\.com - reject-200
+    - ^https:\/\/lf-res-3\.douyinstatic\.com - reject-200
+    - ^https:\/\/p4-lm\.adukwai\.com - reject-200
+    - ^https:\/\/imp\.voiceads\.cn - reject-200
+    - ^https:\/\/win\.gdt\.qq\.com - reject-200
+    - ^https:\/\/v2\.gdt\.qq\.com - reject-200
+    - ^https:\/\/vr\.gdt\.qq\.com - reject-200
+    - ^https:\/\/pgdt\.ugdtimg\.com - reject-200
+    - ^https:\/\/adx-track\.adn-plus\.com\.cn - reject-200
+    - ^https:\/\/ssp-track\.adn-plus\.com\.cn - reject-200
+    - ^https:\/\/im-x\.jd\.com - reject-200
+    - ^https:\/\/img1\.360buyimg\.com - reject-200
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
