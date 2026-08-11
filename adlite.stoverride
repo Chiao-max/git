@@ -13,6 +13,11 @@ rules:
   - DOMAIN-SUFFIX,ctrmi.cn,REJECT
   - DOMAIN-SUFFIX,df.tanx.com,REJECT
   - DOMAIN-SUFFIX,adtrack.qianwen.com,REJECT
+  - DOMAIN-SUFFIX,ads5-normal-hl.zijieapi.com,REJECT
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 
 http:
   mitm:
