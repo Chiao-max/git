@@ -560,7 +560,7 @@ http:
       type: response
       require-body: true
       timeout: 10
-    - match: ^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua
+    - match: ^https:\/\/[a-z]+\.uve\.weibo\.com\/(wbapplua\/wbpullad\.lua|v2\/ad\/preload)
       name: adblockerlite30
       type: response
       require-body: true
@@ -996,6 +996,7 @@ http:
     - ^https:\/\/img1\.360buyimg\.com - reject-200
   body-rewrite:
     - '^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua response-jq .cached_ad.ads |= ((. // []) | map(select((.duration|tostring) != "5")))'
+    - '^https://bootpreload\.uve\.weibo\.com/v2/ad/preload response-jq .ads = []'
 script-providers:
   adblockerlite1:
     url: https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
