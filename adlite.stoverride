@@ -1019,7 +1019,6 @@ http:
     - ^https:\/\/ssp-track\.adn-plus\.com\.cn - reject-200
     - ^https:\/\/im-x\.jd\.com - reject-200
     - ^https:\/\/img1\.360buyimg\.com - reject-200
-    - ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject-dict
     - ^https?:\/\/h\.app\.coc\.10086\.cn\/ngpsie\/psieappaidcsdkserver\/dataReported\/resultReportedMaster - reject-200
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/leadeon-abilityopen-biz\/BN\/obtainToken\/getBigNetToken - reject-200
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/welfareWidget\/getAdverList - reject-200
