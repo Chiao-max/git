@@ -17,6 +17,11 @@ rules:
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+  - DOMAIN-SUFFIX,ad.sodamusic.com,REJECT
+  - DOMAIN-SUFFIX,track.sodamusic.com,REJECT
+  - DOMAIN-SUFFIX,adx.bytedance.com,REJECT
+  - DOMAIN-SUFFIX,oceanengine.com,REJECT
+  - DOMAIN-SUFFIX,p3-flowx.ixigua.com,REJECT
 
 http:
   mitm:
