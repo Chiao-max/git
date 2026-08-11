@@ -22,7 +22,6 @@ rules:
   - DOMAIN-SUFFIX,adx.bytedance.com,REJECT
   - DOMAIN-SUFFIX,oceanengine.com,REJECT
   - DOMAIN-SUFFIX,p3-flowx.ixigua.com,REJECT
-  - DOMAIN-SUFFIX,api5-hl.qishui.com,REJECT  # TEMP-TEST 对照实验
 
 http:
   mitm:
