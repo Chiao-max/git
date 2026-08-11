@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告 v20260811-4
+  app去广告 v20260811-5
 icon: |-
   https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 
@@ -1026,7 +1026,6 @@ http:
     - ^https?:\/\/qwhdcdn\.cmcc-cs\.cn\/prd-mgcenter\/ - reject-200
     - ^https?:\/\/res\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/ - reject-200
     - ^https?:\/\/img\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/ - reject-200
-    - ^https?:\/\/h\.app\.coc\.10086\.cn\/ngpsie\/psieappaiddsdkserver\/merger\/getStrategyAndExpirementList - reject-200
   body-rewrite:
     - '^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua response-jq .cached_ad.ads |= ((. // []) | map(select((.duration|tostring) != "5")))'
     - '^https://bootpreload\.uve\.weibo\.com/v2/ad/preload response-jq .ads = []'
