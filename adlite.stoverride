@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告
+  app去广告 v20260811-1
 icon: |-
   https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 
@@ -24,6 +24,7 @@ rules:
   - DOMAIN-SUFFIX,p3-flowx.ixigua.com,REJECT
   - DOMAIN-SUFFIX,da.mmarket.com,REJECT
   - DOMAIN-SUFFIX,upc.zztfly.com,REJECT
+  - DOMAIN-SUFFIX,cfgc.zztfly.com,REJECT
 
 http:
   mitm:
@@ -432,6 +433,8 @@ http:
     - "aikanvod.miguvideo.com"
     - "h.app.coc.10086.cn"
     - "client.app.coc.10086.cn"
+    - "qwhdcdn.cmcc-cs.cn"
+    - "res.app.coc.10086.cn"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -1019,6 +1022,8 @@ http:
     - ^https?:\/\/h\.app\.coc\.10086\.cn\/ngpsie\/psieappaidcsdkserver\/dataReported\/resultReportedMaster - reject-200
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/leadeon-abilityopen-biz\/BN\/obtainToken\/getBigNetToken - reject-200
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/welfareWidget\/getAdverList - reject-200
+    - ^https?:\/\/qwhdcdn\.cmcc-cs\.cn\/prd-mgcenter\/ - reject-200
+    - ^https?:\/\/res\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/ - reject-200
   body-rewrite:
     - '^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua response-jq .cached_ad.ads |= ((. // []) | map(select((.duration|tostring) != "5")))'
     - '^https://bootpreload\.uve\.weibo\.com/v2/ad/preload response-jq .ads = []'
