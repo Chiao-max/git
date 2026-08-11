@@ -22,6 +22,8 @@ rules:
   - DOMAIN-SUFFIX,adx.bytedance.com,REJECT
   - DOMAIN-SUFFIX,oceanengine.com,REJECT
   - DOMAIN-SUFFIX,p3-flowx.ixigua.com,REJECT
+  - DOMAIN-SUFFIX,da.mmarket.com,REJECT
+  - DOMAIN-SUFFIX,upc.zztfly.com,REJECT
 
 http:
   mitm:
@@ -427,6 +429,9 @@ http:
     - "*-track.adn-plus.com.cn"
     - "im-x.jd.com"
     - "img1.360buyimg.com"
+    - "aikanvod.miguvideo.com"
+    - "h.app.coc.10086.cn"
+    - "client.app.coc.10086.cn"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -1010,6 +1015,10 @@ http:
     - ^https:\/\/ssp-track\.adn-plus\.com\.cn - reject-200
     - ^https:\/\/im-x\.jd\.com - reject-200
     - ^https:\/\/img1\.360buyimg\.com - reject-200
+    - ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject-dict
+    - ^https?:\/\/h\.app\.coc\.10086\.cn\/ngpsie\/psieappaidcsdkserver\/dataReported\/resultReportedMaster - reject-200
+    - ^https?:\/\/client\.app\.coc\.10086\.cn\/leadeon-abilityopen-biz\/BN\/obtainToken\/getBigNetToken - reject-200
+    - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/welfareWidget\/getAdverList - reject-200
   body-rewrite:
     - '^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua response-jq .cached_ad.ads |= ((. // []) | map(select((.duration|tostring) != "5")))'
     - '^https://bootpreload\.uve\.weibo\.com/v2/ad/preload response-jq .ads = []'
