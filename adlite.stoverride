@@ -5,6 +5,13 @@ desc: |-
 icon: |-
   https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
 
+prepend-rules:
+  - DOMAIN-SUFFIX,kadmimage.biz.weibo.com,REJECT
+  - DOMAIN-SUFFIX,sdkaction.biz.weibo.com,REJECT
+  - DOMAIN-SUFFIX,sdkmonitor.biz.weibo.com,REJECT
+  - DOMAIN-SUFFIX,sdkclick.biz.weibo.com,REJECT
+  - DOMAIN-SUFFIX,ctrmi.cn,REJECT
+
 http:
   mitm:
     - "napi.ithome.com"
@@ -553,6 +560,11 @@ http:
       type: response
       require-body: true
       timeout: 10
+    - match: ^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua
+      name: adblockerlite30
+      type: response
+      require-body: true
+      timeout: 10
   rewrite:
     - ^https?:\/\/2024.10.12/c347/v2.0.534 - reject-200
     - ^https?:\/\/ftapi\.10jqka\.com\.cn\/futgwapi\/api\/om\/v\d\/ad\/common\/transfer - reject-200
@@ -1069,4 +1081,7 @@ script-providers:
     interval: 86400
   adblockerlite29:
     url: https://github.com/fmz200/wool_scripts/raw/main/Scripts/xianyu/xianyu_ads.js
+    interval: 86400
+  adblockerlite30:
+    url: https://raw.githubusercontent.com/Chiao-max/git/master/adlite-weibo-splash.js
     interval: 86400
