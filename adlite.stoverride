@@ -17,7 +17,6 @@ rules:
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com,REJECT
   - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
-  - DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 
 http:
   mitm:
