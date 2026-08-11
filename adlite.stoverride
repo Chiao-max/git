@@ -11,9 +11,13 @@ rules:
   - DOMAIN-SUFFIX,sdkmonitor.biz.weibo.com,REJECT
   - DOMAIN-SUFFIX,sdkclick.biz.weibo.com,REJECT
   - DOMAIN-SUFFIX,ctrmi.cn,REJECT
+  - DOMAIN-SUFFIX,df.tanx.com,REJECT
+  - DOMAIN-SUFFIX,adtrack.qianwen.com,REJECT
 
 http:
   mitm:
+    - "cm.bilibili.com"
+    - "i0.hdslb.com"
     - "napi.ithome.com"
     - "api.qd-metro.com"
     - "api.kurobbs.com"
@@ -951,6 +955,9 @@ http:
     - ^https?://m\.ctrip\.com/restapi/[\w/]+tripAds - reject
     - ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif - reject-200
     - ^https?:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH - reject-dict
+    - ^https?:\/\/cm\.bilibili\.com\/cm\/api\/conversion\/ - reject-200
+    - ^https?:\/\/cm\.bilibili\.com\/mgk\/api\/open_api\/v1\/landing_pages\/ - reject-200
+    - ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp_brand\/ - reject-200
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.discover\/ - reject-dict
     - ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ - reject-dict
     - ^https:\/\/.*\.pangolin-sdk-toutiao[0-9]{0,1}\.com\/api\/ad\/union - reject-200
