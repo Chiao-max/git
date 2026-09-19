@@ -1,0 +1,27 @@
+name: |-
+  大麦
+desc: |-
+  移除开屏广告、轮播图广告和弹窗广告，移除搜索填充词和专属推荐
+  转换自 Loon 插件 Damai_remove_ads.lpx（可莉 https://hub.kelee.one）
+icon: |-
+  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Damai.png
+
+http:
+  mitm:
+    - "acs.m.taobao.com"
+
+  url-rewrite:
+# 开屏广告
+    - >-
+      ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.wireless\.home\.welcome\/ - reject-dict
+# 弹窗广告
+    - >-
+      ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.popup\.get\/ - reject-dict
+
+  body-rewrite:
+# 我的页面轮播图与专属推荐
+    - '^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.wireless\.user\.my\.content\.get\/ response-json-del data.banner data.performFilmVip.userProfitList'
+# 我的页面信息流卡片
+    - '^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.wireless\.mypage\.feed\/ response-json-del data.feedCard'
+# 搜索填充词
+    - '^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.damai\.mec\.aristotle\.get\/ response-json-del data.data.top.keywords'
