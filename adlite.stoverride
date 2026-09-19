@@ -4,7 +4,7 @@ desc: |-
   app去广告 v20260919-1
   已并入可莉《广告平台拦截器》平台级规则 329 条（原 345 条，去重 16 条）+ 拼多多 DSP 重写 4 条
 icon: |-
-  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
+  https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
 
 rules:
   # ======= 广告平台拦截器（可莉 BlockAdvertisers.lpx）平台级规则，须排在最前 =======
