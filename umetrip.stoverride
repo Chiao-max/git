@@ -1,0 +1,27 @@
+name: |-
+  航旅纵横
+desc: |-
+  过滤航旅纵横广告（脚本按渠道号移除首页广告模块）
+  转换自 Loon 插件 Umetrip_remove_ads.lpx（作者：佚名）
+icon: |-
+  https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Umetrip.png
+
+rules:
+  # 原插件写的是 ^http?:\/\/（多了一个字母位，实际匹配不到任何 http/https 链接），此处修正为 ^https?:\/\/
+  - URL-REGEX,^https?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native,REJECT
+
+http:
+  mitm:
+    - "114.115.217.129"
+    - "home.umetrip.com"
+
+  script:
+    - match: ^https?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$
+      name: umetrip1
+      type: response
+      timeout: 10
+
+script-providers:
+  umetrip1:
+    url: https://raw.githubusercontent.com/Chiao-max/git/master/umetrip-home-ads.js
+    interval: 86400
