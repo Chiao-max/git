@@ -1433,7 +1433,7 @@ script-providers:
     url: https://github.com/ddgksf2013/Scripts/raw/master/dict.js
     interval: 86400
   adblockerlite22:
-    url: https://github.com/ddgksf2013/Scripts/raw/master/v2ex.js
+    url: https://raw.githubusercontent.com/Chiao-max/git/master/adlite-v2ex.js
     interval: 86400
   adblockerlite23:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weixin110.js
