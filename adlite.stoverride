@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告 v20261101-1
+  app去广告 v20261101-2
   已并入可莉《广告平台拦截器》平台级规则 329 条（原 345 条，去重 16 条）+ 拼多多 DSP 重写 4 条
 icon: |-
   https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
@@ -775,6 +775,7 @@ http:
     - "res.app.coc.10086.cn"
     - "img.app.coc.10086.cn"
     - "gateway.kugou.com"
+    - "gatewayretry.kugou.com"
     - "edith.xiaohongshu.com"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
@@ -1370,7 +1371,7 @@ http:
     - ^https?:\/\/qwhdcdn\.cmcc-cs\.cn\/prd-mgcenter\/ - reject-200
     - ^https?:\/\/res\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/ - reject-200
     - ^https?:\/\/img\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/ - reject-200
-    - ^https?:\/\/gateway\.kugou\.com\/ads\.(service|gateway)\/ - reject-dict
+    - ^https?:\/\/gateway(retry)?\.kugou\.com\/ads\.(service|gateway)\/ - reject-dict
     - ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource - reject-dict
     - ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_(config|async_optimization) - reject-dict
   body-rewrite:
