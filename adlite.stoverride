@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告 v20261101-7
+  app去广告 v20261101-8
   已并入可莉《广告平台拦截器》平台级规则 329 条（原 345 条，去重 16 条）+ 拼多多 DSP 重写 4 条
 icon: |-
   https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
@@ -360,7 +360,6 @@ rules:
   - DOMAIN,ad.tencentmusic.com,REJECT
   - DOMAIN,mc.tencentmusic.com,REJECT
   - DOMAIN,sdkreport.e.qq.com,REJECT
-  - AND,((NETWORK,udp),(DST-PORT,443)),REJECT
 
 http:
   mitm:
