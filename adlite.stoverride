@@ -2,8 +2,7 @@ name: |-
   adblocker
 desc: |-
   app去广告 v20261106-6
-  规则来源：可莉《广告平台拦截器》平台级规则 329 条 + 拼多多 DSP 重写 4 条 + 各 App 实测条目
-  中国移动：仅 10086.cn / chinamobile.com / migu.cn / miguvideo.com / cmcc-cs.cn 走 DIRECT，不做广告拦截（开屏不屏蔽；prd-mgcenter 目录混装业务图标，整段/尺寸拦截会误伤）
+  拦截广告域名，改写广告接口与素材响应，屏蔽常见 App 的开屏、信息流及浮层广告
 icon: |-
   https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
 
