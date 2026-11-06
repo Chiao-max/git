@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告 v20261106-5
+  app去广告 v20261106-6
   已并入可莉《广告平台拦截器》平台级规则 329 条（原 345 条，去重 16 条）+ 拼多多 DSP 重写 4 条
 icon: |-
   https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
@@ -353,10 +353,11 @@ rules:
   - DOMAIN-SUFFIX,adx.bytedance.com,REJECT
   - DOMAIN-SUFFIX,oceanengine.com,REJECT
   - DOMAIN-SUFFIX,p3-flowx.ixigua.com,REJECT
-  - DOMAIN-SUFFIX,da.mmarket.com,REJECT
-  - DOMAIN-SUFFIX,upc.zztfly.com,REJECT
-  - DOMAIN-SUFFIX,cfgc.zztfly.com,REJECT
-  - DOMAIN-SUFFIX,cfgc.flysleep.cn,REJECT
+  # ======= 中国移动：整域 REJECT 已停用（配置下发域 cmarket/zztfly/flysleep 可能影响图标与功能按钮）=======
+  # - DOMAIN-SUFFIX,da.mmarket.com,REJECT
+  # - DOMAIN-SUFFIX,upc.zztfly.com,REJECT
+  # - DOMAIN-SUFFIX,cfgc.zztfly.com,REJECT
+  # - DOMAIN-SUFFIX,cfgc.flysleep.cn,REJECT
   # ======= 中国移动国内业务强制直连（Stash 节点连国内域名会 502）=======
   - DOMAIN-SUFFIX,10086.cn,DIRECT
   - DOMAIN-SUFFIX,chinamobile.com,DIRECT
@@ -794,9 +795,6 @@ http:
     - "im-x.jd.com"
     - "img1.360buyimg.com"
     - "aikanvod.miguvideo.com"
-    - "qwhdcdn.cmcc-cs.cn"
-    - "res.app.coc.10086.cn"
-    - "img.app.coc.10086.cn"
   script:
     - match: ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1
       name: adblockerlite1
@@ -1385,9 +1383,10 @@ http:
     - ^https:\/\/ssp-track\.adn-plus\.com\.cn - reject-200
     - ^https:\/\/im-x\.jd\.com - reject-200
     - ^https:\/\/img1\.360buyimg\.com - reject-200
-    - ^https?:\/\/qwhdcdn\.cmcc-cs\.cn\/prd-mgcenter\/ - reject-200
-    - ^https?:\/\/(res|img)\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/.+height=2096\.00 - reject-200
-    - ^https?:\/\/(res|img)\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/.+width=1179\.00&fmt=webp - reject-200
+    # ======= 中国移动：开屏素材拦截已停用（prd-mgcenter 目录混装业务图标，整段/尺寸拦截都会误伤）=======
+    # - ^https?:\/\/qwhdcdn\.cmcc-cs\.cn\/prd-mgcenter\/ - reject-200
+    # - ^https?:\/\/(res|img)\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/.+height=2096\.00 - reject-200
+    # - ^https?:\/\/(res|img)\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/.+width=1179\.00&fmt=webp - reject-200
   body-rewrite:
     - '^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua response-jq .cached_ad.ads |= ((. // []) | map(select((.duration|tostring) != "5")))'
     - '^https://bootpreload\.uve\.weibo\.com/v2/ad/preload response-jq .ads = []'
