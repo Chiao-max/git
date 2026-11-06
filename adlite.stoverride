@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告 v20261101-11
+  app去广告 v20261106-2
   已并入可莉《广告平台拦截器》平台级规则 329 条（原 345 条，去重 16 条）+ 拼多多 DSP 重写 4 条
 icon: |-
   https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
@@ -356,6 +356,7 @@ rules:
   - DOMAIN-SUFFIX,da.mmarket.com,REJECT
   - DOMAIN-SUFFIX,upc.zztfly.com,REJECT
   - DOMAIN-SUFFIX,cfgc.zztfly.com,REJECT
+  - DOMAIN-SUFFIX,cfgc.flysleep.cn,REJECT
   - DOMAIN,adservice.kugou.com,REJECT
   - DOMAIN,adserviceretry.kugou.com,REJECT
   - DOMAIN,ads.bssdl.kugou.com,REJECT
@@ -1384,8 +1385,6 @@ http:
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/leadeon-abilityopen-biz\/BN\/obtainToken\/getBigNetToken - reject-200
     - ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/welfareWidget\/getAdverList - reject-200
     - ^https?:\/\/qwhdcdn\.cmcc-cs\.cn\/prd-mgcenter\/ - reject-200
-    - ^https?:\/\/res\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/ - reject-200
-    - ^https?:\/\/img\.app\.coc\.10086\.cn\/qwhdcdn_cmcc-cs_cn\/prd-mgcenter\/ - reject-200
   body-rewrite:
     - '^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua response-jq .cached_ad.ads |= ((. // []) | map(select((.duration|tostring) != "5")))'
     - '^https://bootpreload\.uve\.weibo\.com/v2/ad/preload response-jq .ads = []'
