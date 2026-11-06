@@ -1,7 +1,7 @@
 name: |-
   adblocker
 desc: |-
-  app去广告 v20261106-3
+  app去广告 v20261106-4
   已并入可莉《广告平台拦截器》平台级规则 329 条（原 345 条，去重 16 条）+ 拼多多 DSP 重写 4 条
 icon: |-
   https://raw.githubusercontent.com/luestr/IconResource/main/Website_icon/120px/TencentAd.png
@@ -357,6 +357,12 @@ rules:
   - DOMAIN-SUFFIX,upc.zztfly.com,REJECT
   - DOMAIN-SUFFIX,cfgc.zztfly.com,REJECT
   - DOMAIN-SUFFIX,cfgc.flysleep.cn,REJECT
+  # ======= 中国移动国内业务强制直连（Stash 节点连国内域名会 502）=======
+  - DOMAIN-SUFFIX,10086.cn,DIRECT
+  - DOMAIN-SUFFIX,chinamobile.com,DIRECT
+  - DOMAIN-SUFFIX,migu.cn,DIRECT
+  - DOMAIN-SUFFIX,miguvideo.com,DIRECT
+  - DOMAIN-SUFFIX,cmcc-cs.cn,DIRECT
   - DOMAIN,adservice.kugou.com,REJECT
   - DOMAIN,adserviceretry.kugou.com,REJECT
   - DOMAIN,ads.bssdl.kugou.com,REJECT
